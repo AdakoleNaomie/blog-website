@@ -88,10 +88,10 @@
         .box1{
             background-color:mediumaquamarine;
             height: 70em;
-            width: 60em;
+            width: 62em;
             position: sticky;
             margin-top: -700px;
-            margin-left: 1.5%;
+            margin-left: 0%;
             
         }
         .box1img {
@@ -99,7 +99,7 @@
             background-position: center;
             background-size: cover;
             height: 40em;
-            width: 58em;
+            width: 60em;
             margin-left: 16px;
             margin-top: 15px;
         }
@@ -111,15 +111,15 @@
             height: 1px;
             margin-top: 50px;
             background-color: black;
-            width: 59em;
-            margin-left: -5px;
+            width: 62em;
+            margin-left: -10px;
             
         }
         .line2 {
             height: 1px;
             margin-top: 30px;
             background-color: black;
-            width: 60em;
+            width: 62em;
             margin-left: 1px;
             
         }
@@ -130,10 +130,11 @@
         }
         .box-container2{
             background-color: rgb(245, 226, 226);
-            margin-left: 1.5%;
+            margin-left: 0%;
             height: 40em;
-            width: 60em;
+            width: 62em;
             margin-top: 30px;
+            border-radius: 10px;
             
         }
         .box3 {
@@ -141,7 +142,9 @@
             background-position: center;
             background-size: cover;
             height: 30em;
-            width: 60em;
+            width: 62em;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
         
             
         }
@@ -150,8 +153,10 @@
             background-position: center;
             background-size: cover;
             height: 30em;
-            width: 60em;
+            width: 62em;
             margin-top: 100px;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
         
             
         }
@@ -161,17 +166,20 @@
             background-position: center;
             background-size: cover;
             height: 30em;
-            width: 60em;
+            width: 62em;
             margin-top: 100px;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
         
             
         }
         .box-container3{
             background-color: rgb(245, 226, 226);
             height: 40em;
-            width: 60em;
+            width: 62em;
             margin-top: 250px;
             margin-left: 0%;
+            border-radius: 10px;
             
         }
         .box6{
@@ -179,8 +187,10 @@
             background-position: center;
             background-size: cover;
             height: 30em;
-            width: 60em;
+            width: 62em;
             margin-top: 100px;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
             
         
             
@@ -190,8 +200,10 @@
             background-position: center;
             background-size: cover;
             height: 30em;
-            width: 60em;
+            width: 62em;
             margin-top: 100px;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
             
         
             
@@ -228,6 +240,7 @@
             background-size: cover;
             height: 25em;
             width: 27em;
+            border-radius: 10px;
         }
         .six{
             background-image: url(tr3.jpg);
@@ -235,6 +248,7 @@
             background-size: cover;
             height: 25em;
             width: 27em;
+            border-radius: 10px;
         }
         .seven{
             background-image: url(tr1.jpg);
@@ -243,6 +257,7 @@
             height: 25em;
             width: 27em;
             margin-top: 40px;
+            border-radius: 10px;
         }
         .eight{
             background-image: url(tr7.webp);
@@ -251,6 +266,7 @@
             height: 25em;
             width: 27em;
             margin-top: 40px;
+            border-radius: 10px;
         }
         .nine{
             background-image: url(tr10.jpg);
@@ -259,6 +275,7 @@
             height: 25em;
             width: 27em;
             margin-top: 40px;
+            border-radius: 10px;
         }
         .ten{
             background-image: url(tr12.jpg);
@@ -267,6 +284,7 @@
             height: 25em;
             width: 27em;
             margin-top: 40px;
+            border-radius: 10px;
         }
         .eleven{
             background-image: url(tr13.jpg);
@@ -275,6 +293,7 @@
             height: 25em;
             width: 27em;
             margin-top: 40px;
+            border-radius: 10px;
         }
         .twelve{
             background-image: url(tr14.jpg);
@@ -283,6 +302,7 @@
             height: 25em;
             width: 27em;
             margin-top: 40px;
+            border-radius: 10px;
         }
         .text1 {
             text-align: center;
@@ -510,18 +530,18 @@
         .box1{
             background-color:mediumaquamarine;
             height: 45em;
-            width: 46em;
+            width: 48em;
             position: sticky;
             margin-top: -400px;
-            margin-left: 2%;
+            margin-left: 0%;
             
         }
         .box1img {
             background-image: url(tr11.jpg);
             background-position: center;
             background-size: cover;
-            height: 20em;
-            width: 44em;
+            height: 22em;
+            width: 46em;
             margin-left: 16px;
             margin-top: 15px;
         }
@@ -533,15 +553,15 @@
             height: 1px;
             margin-top: 20px;
             background-color: black;
-            width: 45em;
-            margin-left: -5px;
+            width: 48em;
+            margin-left: -10px;
             
         }
         .line2 {
             height: 1px;
             margin-top: 30px;
             background-color: black;
-            width: 46em;
+            width: 48em;
             margin-left: 1px;
             
         }
@@ -552,9 +572,9 @@
         }
         .box-container2{
             background-color: rgb(245, 226, 226);
-            margin-left: 2%;
+            margin-left: 0%;
             height: 35em;
-            width: 46em;
+            width: 48em;
             margin-top: 30px;
             
         }
@@ -563,7 +583,7 @@
             background-position: center;
             background-size: cover;
             height: 25em;
-            width: 46em;
+            width: 48em;
         
             
         }
@@ -572,7 +592,7 @@
             background-position: center;
             background-size: cover;
             height: 25em;
-            width: 46em;
+            width: 48em;
             margin-top: 100px;
         
             
@@ -583,7 +603,7 @@
             background-position: center;
             background-size: cover;
             height: 25em;
-            width: 46em;
+            width: 48em;
             margin-top: 100px;
         
             
@@ -591,7 +611,7 @@
         .box-container3{
             background-color: rgb(245, 226, 226);
             height: 35em;
-            width: 46em;
+            width: 48em;
             margin-left: 0%;
             
         }
@@ -600,7 +620,7 @@
             background-position: center;
             background-size: cover;
             height: 25em;
-            width: 46em;
+            width: 48em;
             margin-top: 100px;
             
         
@@ -611,7 +631,7 @@
             background-position: center;
             background-size: cover;
             height: 25em;
-            width: 46em;
+            width: 48em;
             margin-top: 100px;
             
         
@@ -649,6 +669,7 @@
             background-size: cover;
             height: 22em;
             width: 21em;
+            border-radius: 10px;
         }
         .six{
             background-image: url(tr3.jpg);
@@ -656,6 +677,7 @@
             background-size: cover;
             height: 22em;
             width: 21em;
+            border-radius: 10px;
         }
         .seven{
             background-image: url(tr1.jpg);
@@ -664,6 +686,7 @@
             height: 22em;
             width: 21em;
             margin-top: 25px;
+            border-radius: 10px;
         }
         .eight{
             background-image: url(tr7.webp);
@@ -672,6 +695,7 @@
             height: 22em;
             width: 21em;
             margin-top: 25px;
+            border-radius: 10px;
         }
         .nine{
             background-image: url(tr10.jpg);
@@ -680,6 +704,7 @@
             height: 22em;
             width: 21em;
             margin-top: 25px;
+            border-radius: 10px;
         }
         .ten{
             background-image: url(tr12.jpg);
@@ -688,6 +713,7 @@
             height: 22em;
             width: 21em;
             margin-top: 25px;
+            border-radius: 10px;
         }
         .eleven{
             background-image: url(tr13.jpg);
@@ -696,6 +722,7 @@
             height: 22em;
             width: 21em;
             margin-top: 25px;
+            border-radius: 10px;
         }
         .twelve{
             background-image: url(tr14.jpg);
@@ -703,6 +730,7 @@
             background-size: cover;
             height: 22em;
             width: 21em;
+            border-radius: 10px;
             margin-top: 25px;
         }
         .text1 {
@@ -928,10 +956,10 @@
         .box1{
             background-color:mediumaquamarine;
             height: 35em;
-            width: 25em;
+            width: 27em;
             position: sticky;
             margin-top: -180px;
-            margin-left: 3%;
+            margin-left: 0%;
             
         }
         .box1img {
@@ -939,8 +967,8 @@
             background-position: center;
             background-size: cover;
             height: 18em;
-            width: 23em;
-            margin-left: 16px;
+            width: 24.5em;
+            margin-left: 17px;
             margin-top: 15px;
         }
         .txt-container {
@@ -951,15 +979,15 @@
             height: 1px;
             margin-top: 20px;
             background-color: black;
-            width: 24em;
-            margin-left: -5px;
+            width: 26.5em;
+            margin-left: -10px;
             
         }
         .line2 {
             height: 1px;
             margin-top: 30px;
             background-color: black;
-            width: 25em;
+            width: 26.5em;
             margin-left: 1px;
             
         }
@@ -970,10 +998,12 @@
         }
         .box-container2{
             background-color: rgb(245, 226, 226);
-            margin-left: 3%;
+            margin-left: 0%;
             height: 33em;
-            width: 25em;
+            width: 26.5em;
             margin-top: 30px;
+            border-radius: 10px;
+            
             
         }
         .box3 {
@@ -981,7 +1011,10 @@
             background-position: center;
             background-size: cover;
             height: 25em;
-            width: 25em;
+            width: 26.5em;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+            
         
             
         }
@@ -990,8 +1023,10 @@
             background-position: center;
             background-size: cover;
             height: 25em;
-            width: 25em;
+            width: 26.5em;
             margin-top: 100px;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
         
             
         }
@@ -1001,16 +1036,19 @@
             background-position: center;
             background-size: cover;
             height: 25em;
-            width: 25em;
+            width: 26.5em;
             margin-top: 100px;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
         
             
         }
         .box-container3{
             background-color: rgb(245, 226, 226);
             height: 33em;
-            width: 25em;
+            width: 26.5em;
             margin-left: 0%;
+            border-radius: 10px;
             
         }
         .box6{
@@ -1018,8 +1056,10 @@
             background-position: center;
             background-size: cover;
             height: 25em;
-            width: 25em;
+            width: 26.5em;
             margin-top: 100px;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
             
         
             
@@ -1029,9 +1069,10 @@
             background-position: center;
             background-size: cover;
             height: 25em;
-            width: 25em;
+            width: 26.5em;
             margin-top: 100px;
-            
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
         
             
         }
@@ -1060,6 +1101,7 @@
             grid-template-columns: repeat(2, 1fr);
             margin-left: 3%;
             margin-top: 50px;
+            
         }
         .five{
             background-image: url(tr8.jpg);
@@ -1067,6 +1109,7 @@
             background-size: cover;
             height: 13em;
             width: 12em;
+            border-radius: 10px;
         }
         .six{
             background-image: url(tr3.jpg);
@@ -1074,6 +1117,7 @@
             background-size: cover;
             height: 13em;
             width: 12em;
+            border-radius: 10px;
         }
         .seven{
             background-image: url(tr1.jpg);
@@ -1082,6 +1126,7 @@
             height: 13em;
             width: 12em;
             margin-top: 15px;
+            border-radius: 10px;
         }
         .eight{
             background-image: url(tr7.webp);
@@ -1089,6 +1134,7 @@
             background-size: cover;
             height: 13em;
             width: 12em;
+            border-radius: 10px;
             margin-top: 15px;
         }
         .nine{
@@ -1098,6 +1144,7 @@
             height: 13em;
             width: 12em;
             margin-top: 15px;
+            border-radius: 10px;
         }
         .ten{
             background-image: url(tr12.jpg);
@@ -1106,6 +1153,7 @@
             height: 13em;
             width: 12em;
             margin-top: 15px;
+            border-radius: 10px;
         }
         .eleven{
             background-image: url(tr13.jpg);
@@ -1114,6 +1162,7 @@
             height: 13em;
             width: 12em;
             margin-top: 15px;
+            border-radius: 10px;
         }
         .twelve{
             background-image: url(tr14.jpg);
@@ -1122,12 +1171,13 @@
             height: 13em;
             width: 12em;
             margin-top: 15px;
+            border-radius: 10px;
         }
         .text1 {
             text-align: center;
             font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
             padding-top: 5px;
-            font-size: 2em;
+            font-size: 1.7em;
         }
         .txt2 {
             font-size: 1.2em;
@@ -1344,10 +1394,10 @@
         .box1{
             background-color:mediumaquamarine;
             height: 35em;
-            width: 22em;
+            width: 24em;
             position: sticky;
             margin-top: -150px;
-            margin-left: 3%;
+            margin-left: 0%;
             
         }
         .box1img {
@@ -1355,8 +1405,8 @@
             background-position: center;
             background-size: cover;
             height: 18em;
-            width: 20em;
-            margin-left: 16px;
+            width: 21em;
+            margin-left: 19px;
             margin-top: 15px;
         }
         .txt-container {
@@ -1367,15 +1417,15 @@
             height: 1px;
             margin-top: 20px;
             background-color: black;
-            width: 21em;
-            margin-left: -5px;
+            width: 24em;
+            margin-left: -10px;
             
         }
         .line2 {
             height: 1px;
             margin-top: 30px;
             background-color: black;
-            width: 22em;
+            width: 24em;
             margin-left: 1px;
             
         }
@@ -1386,10 +1436,11 @@
         }
         .box-container2{
             background-color: rgb(245, 226, 226);
-            margin-left: 12px;
+            margin-left: 0;
             height: 33em;
-            width: 22em;
+            width: 23.5em;
             margin-top: 30px;
+            border-radius: 10px;
             
         }
         .box3 {
@@ -1397,7 +1448,9 @@
             background-position: center;
             background-size: cover;
             height: 25em;
-            width: 22em;
+            width: 23.5em;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
         
             
         }
@@ -1406,8 +1459,10 @@
             background-position: center;
             background-size: cover;
             height: 25em;
-            width: 22em;
+            width: 23.5em;
             margin-top: 100px;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
         
             
         }
@@ -1417,15 +1472,18 @@
             background-position: center;
             background-size: cover;
             height: 25em;
-            width: 22em;
+            width: 23.5em;
             margin-top: 100px;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
         
             
         }
         .box-container3{
             background-color: rgb(245, 226, 226);
             height: 33em;
-            width: 22em;
+            width: 23.5em;
+            border-radius: 10px;
             
         }
         .box6{
@@ -1433,8 +1491,10 @@
             background-position: center;
             background-size: cover;
             height: 23em;
-            width: 22em;
+            width: 23.5em;
             margin-top: 100px;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
             
         
             
@@ -1444,8 +1504,10 @@
             background-position: center;
             background-size: cover;
             height: 25em;
-            width: 22em;
+            width: 23.5em;
             margin-top: 100px;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
             
         
             
@@ -1753,10 +1815,10 @@
         .box1{
             background-color:mediumaquamarine;
             height: 32em;
-            width: 18em;
+            width: 20em;
             position: sticky;
             margin-top: -150px;
-            margin-left: 5%;
+            margin-left: 0%;
     
             
             
@@ -1766,7 +1828,7 @@
             background-position: center;
             background-size: cover;
             height: 15em;
-            width: 16em;
+            width: 18em;
             margin-left: 16px;
             margin-top: 15px;
         }
@@ -1779,15 +1841,15 @@
             height: 1px;
             margin-top: 20px;
             background-color: black;
-            width: 16em;
-            margin-left: 5px;
+            width: 20em;
+            margin-left: -10px;
             
         }
         .line2 {
             height: 1px;
             margin-top: 20px;
             background-color: black;
-            width: 18em;
+            width: 20em;
             margin-left: 1px;
             
         }
@@ -1800,9 +1862,9 @@
         }
         .box-container2{
             background-color: rgb(245, 226, 226);
-            margin-left: 5%;
+            margin-left: 0%;
             height: 27em;
-            width: 18em;
+            width: 20em;
             margin-top: 30px;
         
             
@@ -1812,7 +1874,7 @@
             background-position: center;
             background-size: cover;
             height: 20em;
-            width: 18em;
+            width: 20em;
     
             
         }
@@ -1821,7 +1883,7 @@
             background-position: center;
             background-size: cover;
             height: 20em;
-            width: 18em;
+            width: 20em;
             margin-top: 100px;
     
             
@@ -1832,7 +1894,7 @@
             background-position: center;
             background-size: cover;
             height: 20em;
-            width: 18em;
+            width: 20em;
             margin-top: 100px;
     
             
@@ -1840,7 +1902,7 @@
         .box-container3{
             background-color: rgb(245, 226, 226);
             height: 27em;
-            width: 18em;
+            width: 20em;
             
             
         }
@@ -1849,7 +1911,7 @@
             background-position: center;
             background-size: cover;
             height: 18em;
-            width: 18em;
+            width: 20em;
             margin-top: 100px;
             
     
@@ -1860,7 +1922,7 @@
             background-position: center;
             background-size: cover;
             height: 20em;
-            width: 18em;
+            width: 20em;
             margin-top: 100px;
             
     

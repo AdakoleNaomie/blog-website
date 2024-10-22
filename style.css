@@ -68,11 +68,11 @@
         }
         
        
-        .video {
+        /* .video {
             position: relative;
             margin-top: -150px;
-            width: 100vw;
-        }
+        
+        } */
         .svg {
             display: flex;
             gap: 15px;

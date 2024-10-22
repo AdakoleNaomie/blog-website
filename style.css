@@ -86,12 +86,15 @@
             display: block;
         }
         .box1{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
             background-color:mediumaquamarine;
             height: 70em;
             width: 62em;
             position: sticky;
             margin-top: -700px;
-            margin-left: 0%;
+            
             
         }
         .box1img {
@@ -100,7 +103,7 @@
             background-size: cover;
             height: 40em;
             width: 60em;
-            margin-left: 16px;
+            margin-left: 1.5%;
             margin-top: 15px;
         }
         .txt-container {
@@ -129,11 +132,14 @@
         
         }
         .box-container2{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
             background-color: rgb(245, 226, 226);
             margin-left: 0%;
             height: 40em;
             width: 62em;
-            margin-top: 30px;
+            margin-top: 50px;
             border-radius: 10px;
             
         }

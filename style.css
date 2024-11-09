@@ -1,2139 +1,404 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+
+.card {
+    height: 30em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -300px;
+    width: 70vw;
+    background-color:cadetblue;
+
+}
+.mainnav {
+    position: fixed;
+    z-index: 100;
+    width: 100vw;
+}
+h1 {
+    color: black;
+    padding-top: 15px;
+    font-size: 1.5em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  
+}
+.navbar1{
+    padding-left: 100px;
+}
+
+.text-one{
+    padding-left: 47px;
+}
+ .logotxt{
+    color:black;
+    margin-top: -10px;
+}
+
+.form {
+    padding-left: 50px;
+}
+.image-box{
+    width: 34em;
+    height: 30em;
+   padding: 50px;
+   margin-top: -45px;
+}
+.card-body{
+    padding-left: 200px;
+    padding-top: 100px;
+}
+.svg-container{
+    background-color: yellow;
+    width: 40px;
+    padding: 2px;
+    position: sticky;
+    margin-left: 1310px;
+    margin-top: -500px;
+    position: fixed;
+    
+}
+
+.svg {
+    padding: 7px;
+}
+
+.box-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+    margin-top: 30px;
+    width: 85vw;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.txt1 {
+    margin-left: 95px;
+    margin-top: 100px;
+}
+.txt2{
+    font-size: 1.3em;
+    margin-top: 20px;
+}
+.line {
+    margin-top: 30px;
+    height: 1px;
+    width: 20em;
+    background-color: black;
+}
+.boximg {
+    background-image: url(tr13.jpg);
+    height: 300px;
+    width: 350px;
+    background-position: center;
+    background-size: cover;
+}
+.boximg1 {
+    background-image: url(trf5.webp);
+    height: 300px;
+    width: 350px;
+    background-position: center;
+    background-size: cover;
     
 
 }
-   .lg {
-    display: none;
-   }
-   .mainbody {
-    overflow: hidden;
-   }
+.boximg2 {
+    background-image: url(tr2.jpg);
+    height: 300px;
+    width: 350px;
+    background-position: center;
+    background-size: cover;
+}
+.boximg3 {
+    background-image: url(trf4.jpg);
+    height: 300px;
+    width: 350px;
+    background-position: center;
+    background-size: cover;
+}
 
+.boximg4 {
+    background-image: url(tr14.jpg);
+    height: 300px;
+    width: 350px;
+    background-position: center;
+    background-size: cover;
+}
 
-    @media only screen and (max-width: 991px){
+.box-container2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgb(66, 29, 2);
+    height: 300px;
+    gap: 50px;
+    color: ghostwhite;
+    margin-top: 100px;
+}
+.box5{
+   display: flex;
+   flex-direction: column;
+   padding-top: 100px;
+}
+.text-two {
+    text-align: center;
+}
+.box-container3{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 90vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+}
+.one{
+    background-image: url(tr3.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+    width: 300px;
+}
+.two{
+    background-image: url(tr4.webp);
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+    width: 300px; 
+}
+.three{
+    background-image: url(tr8.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+    width: 300px;
+}
+.four {
+    background-image: url(tr20.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+    width: 300px;
+    margin-bottom: 10px;
 
-        .mainbody {
-            overflow: hidden;
-            align-items: center;
-           }
-        .navbar {
-            display:flex;
-            margin-left: 55%;
-            gap: 20px;
-            height: 10em;
-            margin-top: -20px;
-    
+}
+.five{
+    background-image: url(tr15.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+    width: 300px;
+}
+.six{
+    background-image: url(tr17.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+    width: 300px;
+}
+.seven {
+    background-image: url(tr18.avif);
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+    width: 300px;
+}
+.eight {
+    background-image: url(tr10.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+    width: 300px;
+}
+.b1 {
+    margin-top: 50px;
+    text-align: center;
+    width: 250px;
+    color: ghostwhite;
+    height: 50px;
+    margin-left: 550px;
+    border: none;
+    background-color: rgb(59, 27, 3);
+}
+.box-container4 {
+    display: flex;
+    gap: 150px;
+    justify-content: center;
+    background-color: palevioletred;
+    margin-top: 100px;
+    height: 400px;
+    padding-top: 100px;
+}
 
-        }
-        .navbar a {
-            color: ghostwhite;
-            margin-top: -100px;
-            text-decoration: none;
-            font-size: 1.3em;
-            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-        }
-        .navbar a:hover {
-            background-color: aqua;
-            color: black;
-        }
-        .lg {
-            display: none;
-        }
-        .logo {
-        display: flex;
-        justify-content: flex-start;
-         background-color: black;
-         height: 15em;
-         font-size: 0.8em;
-         padding-left: 15px;
-         padding-top: 60px;
-         
-        
-        }
-        .logo a {
-        text-decoration: none;
-        color: ghostwhite;
-        margin-top: 5px;
-        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-        }
-        .logotxt {
-        color: white;
-        padding-top: 28px;
-        font-size: 1.4em;
-        margin-left: -88px;
-        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-        }
-        
-       
-        /* .video {
-            position: relative;
-            margin-top: -150px;
-        
-        } */
-        .svg {
-            display: flex;
-            gap: 15px;
-            padding: 20px;
-        }
-        .number {
-            font-size: 1.3em;
-            margin-top: -2px;
-        }
-        .box-container {
-            display: block;
-        }
-        .box1{
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            background-color:mediumaquamarine;
-            height: 70em;
-            width: 62em;
-            position: sticky;
-            margin-top: -700px;
-            
-            
-        }
-        .box1img {
-            background-image: url(tr11.jpg);
-            background-position: center;
-            background-size: cover;
-            height: 40em;
-            width: 60em;
-            margin-left: 1.5%;
-            margin-top: 15px;
-        }
-        .txt-container {
-            margin-left: 12px;
-            margin-top: 20px;
-        }
-        .line {
-            height: 1px;
-            margin-top: 50px;
-            background-color: black;
-            width: 62em;
-            margin-left: -10px;
-            
-        }
-        .line2 {
-            height: 1px;
-            margin-top: 30px;
-            background-color: black;
-            width: 62em;
-            margin-left: 1px;
-            
-        }
-        .box2 {
-            display: block;
-            margin-top: 100px;
-        
-        }
-        .box-container2{
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            background-color: rgb(245, 226, 226);
-            margin-left: 0%;
-            height: 40em;
-            width: 62em;
-            margin-top: 50px;
-            border-radius: 10px;
-            
-        }
-        .box3 {
-            background-image: url(trf4.jpg);
-            background-position: center;
-            background-size: cover;
-            height: 30em;
-            width: 62em;
-            border-top-left-radius: 10px;
-            border-top-right-radius: 10px;
-        
-            
-        }
-        .box4 {
-            background-image: url(tr18.avif);
-            background-position: center;
-            background-size: cover;
-            height: 30em;
-            width: 62em;
-            margin-top: 100px;
-            border-top-left-radius: 10px;
-            border-top-right-radius: 10px;
-        
-            
-        }
-        
-        .box5 {
-            background-image: url(tr2.jpg);
-            background-position: center;
-            background-size: cover;
-            height: 30em;
-            width: 62em;
-            margin-top: 100px;
-            border-top-left-radius: 10px;
-            border-top-right-radius: 10px;
-        
-            
-        }
-        .box-container3{
-            background-color: rgb(245, 226, 226);
-            height: 40em;
-            width: 62em;
-            margin-top: 250px;
-            margin-left: 0%;
-            border-radius: 10px;
-            
-        }
-        .box6{
-            background-image: url(trf2.avif);
-            background-position: center;
-            background-size: cover;
-            height: 30em;
-            width: 62em;
-            margin-top: 100px;
-            border-top-left-radius: 10px;
-            border-top-right-radius: 10px;
-            
-        
-            
-        }
-        .box7{
-            background-image: url(tr16.webp);
-            background-position: center;
-            background-size: cover;
-            height: 30em;
-            width: 62em;
-            margin-top: 100px;
-            border-top-left-radius: 10px;
-            border-top-right-radius: 10px;
-            
-        
-            
-        }
-        .box-container4 {
-            display: block;
-            background-color: rgb(4, 4, 59);
-            height: 60em;
-            margin-top: 1800px;
-            padding-top: 100px;
-        }
-        .one {
-            text-align: center;
-            color: ghostwhite;
-            font-size: 5em;
-            margin-top: 8px;
-        }
-        .two {
-            text-align: center;
-            color: ghostwhite;
-            font-size: 3em;
-            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-            margin-top: 15px;
-        }
-        .box-container5 {
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            margin-left: 4%;
-            margin-top: 50px;
-        }
-        .five{
-            background-image: url(tr8.jpg);
-            background-position: center;
-            background-size: cover;
-            height: 25em;
-            width: 27em;
-            border-radius: 10px;
-        }
-        .six{
-            background-image: url(tr3.jpg);
-            background-position: center;
-            background-size: cover;
-            height: 25em;
-            width: 27em;
-            border-radius: 10px;
-        }
-        .seven{
-            background-image: url(tr1.jpg);
-            background-position: center;
-            background-size: cover;
-            height: 25em;
-            width: 27em;
-            margin-top: 40px;
-            border-radius: 10px;
-        }
-        .eight{
-            background-image: url(tr7.webp);
-            background-position: center;
-            background-size: cover;
-            height: 25em;
-            width: 27em;
-            margin-top: 40px;
-            border-radius: 10px;
-        }
-        .nine{
-            background-image: url(tr10.jpg);
-            background-position: center;
-            background-size: cover;
-            height: 25em;
-            width: 27em;
-            margin-top: 40px;
-            border-radius: 10px;
-        }
-        .ten{
-            background-image: url(tr12.jpg);
-            background-position: center;
-            background-size: cover;
-            height: 25em;
-            width: 27em;
-            margin-top: 40px;
-            border-radius: 10px;
-        }
-        .eleven{
-            background-image: url(tr13.jpg);
-            background-position: center;
-            background-size: cover;
-            height: 25em;
-            width: 27em;
-            margin-top: 40px;
-            border-radius: 10px;
-        }
-        .twelve{
-            background-image: url(tr14.jpg);
-            background-position: center;
-            background-size: cover;
-            height: 25em;
-            width: 27em;
-            margin-top: 40px;
-            border-radius: 10px;
-        }
-        .text1 {
-            text-align: center;
-            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-            padding-top: 5px;
-            font-size: 4em;
-        }
-        .txt2 {
-            margin-top: 30px;
-            font-size: 2em;
-            padding-left: 10px;
-            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-        }
-        .txt22 {
-            margin-left: 15px;
-            margin-top: 20px;
-            font-size: 2em;
-        }
-        .txt3 {
-            font-size: 4em;
-            margin-top: 10px;
+.svg2{
+    display: flex;
+    gap: 10px;
 
-        }
-        .txt222 {
-            font-size: 1.7em;
-            padding-left: 10px;
-            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-            margin-top: 10px;
-        }
-        .txt4 {
-            font-size: 1.5em;
-            margin-top: 10px;
-            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-        }
-        .txt5{
-            font-size: 0.7em;
-           }
-        .b1 {
-            margin-top: 30px;
-            height: 4em;
-            width: 30em;
-            margin-left: 28%;
-            background-color: rgb(4, 4, 59);
-            color: ghostwhite;
-            border: none;
-            font-size: 15px;
-        }
-        .b1:hover {
-            color: ghostwhite;
-            background-color: black ;
-            border: none;
-            border-radius: 10px;
-        }
-        .footer {
-        display: block;
-        background-color:rgb(4, 4, 59) ;
-        height: 40em;
-        margin-top: 50px;
-        }
-        .foot1 {
-        display: flex;
-        justify-content: center;
-        padding-top: 30px;
-        color: ghostwhite;
-        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-        font-size: 1.5em;
-        }
-        .logotxt2 {
-        text-align: center;
-        margin-top: -2px;
-        color: ghostwhite;
-        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-        }
-        .foot2 {
-        display: block;
-        margin-top: 50px;
-        text-align: center;
-        
-        }
-        .foot2 a {
-        font-size: 2em;
-        text-decoration: none;
-        color: ghostwhite;
-        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-        }
-        .foot2 a:hover {
-        color: red;
-        }
-        .foot3 {
-        color: ghostwhite;
-        text-align: center;
-        margin-top: 30px;
-        font-size: 1.5em;
-        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-        }
-        .foot4 {
-            color: ghostwhite;
-            margin-top: -50px;
-            font-size: 1.5em;
-            text-align: center;
-            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-        }
-        label {
-        color: ghostwhite;
-        font-size: 1.5em;
-        
-        }
-       
-        .form {
-        margin-top: 30px;
-        text-align: center;
-        
-        }
-        .radio {
-        color: ghostwhite;
-        margin-top: 20px;
-        font-size: 1.5em;
-        text-align: center;
-        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-        }
-    }
-    @media only screen and (max-width: 767px){
-        .navbar {
-            display: none;
-        }
-        
-        .logo {
-        display: flex;
-        justify-content: flex-start;
-         background-color: black;
-         height: 15em;
-         font-size: 0.8em;
-         padding-left: 15px;
-         padding-top: 65px;
-         
-        
-        }
-        .mainbody {
-            overflow: hidden;
-            align-items: center;
-           }
-        .logo a {
-        text-decoration: none;
-        color: ghostwhite;
-        margin-top: 5px;
-        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-        }
-        .logotxt {
-        color: white;
-        padding-top: 28px;
-        font-size: 1.4em;
-        margin-left: -88px;
-        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-        }
-        
-        .add {
-            width: 100px;
-            height: 70px;
-            color: white;
-            visibility: visible;
-        }
-        .box {
-            width: 100px;
-            height: 50px;
-            color:#612717 ;
-            float: left;
-            align-items: center;
-            margin-top: -125px;
-        }
-        .dropdown-content {
-            display: none;
-            position: absolute;
-            color: white;
-            background-color: ghostwhite;
-            z-index: 1;
-            width: 48em;
-            height: 18em;
-            margin-left: -660px;
-            border-radius: 10px;
-        
-          
-        
-        }
-        .dropdown {
-            position: relative;
-            display: inline-block;
-            padding-left: 660px;
-        
-        
-            
-            
-        }
-        .dropdown:hover  .dropdown-content {
-            display: block;
-            color: aliceblue;
-        }
-        ul a:hover {
-            color:mediumspringgreen;
-        }
-        ul a {
-            display: block;
-            color: black;
-            padding-top: 35px;
-            padding-left: 40px;
-            text-decoration: none;
-            font-family: georgia;
-            font-size: 1.5em;
-        }
-        .video {
-            position: relative;
-            margin-top: -100px;
-        }
-        .svg {
-            display: flex;
-            gap: 15px;
-            padding: 20px;
-        }
-        .number {
-            font-size: 1.3em;
-            margin-top: -2px;
-        }
-        .box-container {
-            display: block;
-        }
-        .box1{
-            background-color:mediumaquamarine;
-            height: 45em;
-            width: 48em;
-            position: sticky;
-            margin-top: -400px;
-            margin-left: 0%;
-            
-        }
-        .box1img {
-            background-image: url(tr11.jpg);
-            background-position: center;
-            background-size: cover;
-            height: 22em;
-            width: 46em;
-            margin-left: 16px;
-            margin-top: 15px;
-        }
-        .txt-container {
-            margin-left: 12px;
-            margin-top: 20px;
-        }
-        .line {
-            height: 1px;
-            margin-top: 20px;
-            background-color: black;
-            width: 48em;
-            margin-left: -10px;
-            
-        }
-        .line2 {
-            height: 1px;
-            margin-top: 30px;
-            background-color: black;
-            width: 48em;
-            margin-left: 1px;
-            
-        }
-        .box2 {
-            display: block;
-            margin-top: 100px;
-        
-        }
-        .box-container2{
-            background-color: rgb(245, 226, 226);
-            margin-left: 0%;
-            height: 35em;
-            width: 48em;
-            margin-top: 30px;
-            
-        }
-        .box3 {
-            background-image: url(trf4.jpg);
-            background-position: center;
-            background-size: cover;
-            height: 25em;
-            width: 48em;
-        
-            
-        }
-        .box4 {
-            background-image: url(tr18.avif);
-            background-position: center;
-            background-size: cover;
-            height: 25em;
-            width: 48em;
-            margin-top: 100px;
-        
-            
-        }
-        
-        .box5 {
-            background-image: url(tr2.jpg);
-            background-position: center;
-            background-size: cover;
-            height: 25em;
-            width: 48em;
-            margin-top: 100px;
-        
-            
-        }
-        .box-container3{
-            background-color: rgb(245, 226, 226);
-            height: 35em;
-            width: 48em;
-            margin-left: 0%;
-            
-        }
-        .box6{
-            background-image: url(trf2.avif);
-            background-position: center;
-            background-size: cover;
-            height: 25em;
-            width: 48em;
-            margin-top: 100px;
-            
-        
-            
-        }
-        .box7{
-            background-image: url(tr16.webp);
-            background-position: center;
-            background-size: cover;
-            height: 25em;
-            width: 48em;
-            margin-top: 100px;
-            
-        
-            
-        }
-        .box-container4 {
-            display: block;
-            background-color: rgb(4, 4, 59);
-            height: 60em;
-            margin-top: 1620px;
-            padding-top: 100px;
-        }
-        .one {
-            text-align: center;
-            color: ghostwhite;
-            font-size: 4em;
-            margin-top: 27px;
-        }
-        .two {
-            text-align: center;
-            color: ghostwhite;
-            font-size: 3em;
-            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-            margin-top: 15px;
-        }
-        .box-container5 {
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            margin-left: 4%;
-            margin-top: 50px;
-        }
-        .five{
-            background-image: url(tr8.jpg);
-            background-position: center;
-            background-size: cover;
-            height: 22em;
-            width: 21em;
-            border-radius: 10px;
-        }
-        .six{
-            background-image: url(tr3.jpg);
-            background-position: center;
-            background-size: cover;
-            height: 22em;
-            width: 21em;
-            border-radius: 10px;
-        }
-        .seven{
-            background-image: url(tr1.jpg);
-            background-position: center;
-            background-size: cover;
-            height: 22em;
-            width: 21em;
-            margin-top: 25px;
-            border-radius: 10px;
-        }
-        .eight{
-            background-image: url(tr7.webp);
-            background-position: center;
-            background-size: cover;
-            height: 22em;
-            width: 21em;
-            margin-top: 25px;
-            border-radius: 10px;
-        }
-        .nine{
-            background-image: url(tr10.jpg);
-            background-position: center;
-            background-size: cover;
-            height: 22em;
-            width: 21em;
-            margin-top: 25px;
-            border-radius: 10px;
-        }
-        .ten{
-            background-image: url(tr12.jpg);
-            background-position: center;
-            background-size: cover;
-            height: 22em;
-            width: 21em;
-            margin-top: 25px;
-            border-radius: 10px;
-        }
-        .eleven{
-            background-image: url(tr13.jpg);
-            background-position: center;
-            background-size: cover;
-            height: 22em;
-            width: 21em;
-            margin-top: 25px;
-            border-radius: 10px;
-        }
-        .twelve{
-            background-image: url(tr14.jpg);
-            background-position: center;
-            background-size: cover;
-            height: 22em;
-            width: 21em;
-            border-radius: 10px;
-            margin-top: 25px;
-        }
-        .text1 {
-            text-align: center;
-            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-            padding-top: 5px;
-            font-size: 3em;
-        }
-        .txt2 {
-            margin-top: 40px;
-            font-size: 1.5em;
-            padding-left: 10px;
-            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-        }
-        .txt222 {
-            margin-top: 10px;
-            font-size: 1.5em;
-            padding-left: 10px;
-            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-        }
-        .txt4 {
-            margin-top: 10px;
-            font-size: 1.2em;
-        }
-        .txt22 {
-            margin-left: 15px;
-            margin-top: 20px;
-        }
-        .txt3 {
-            font-size: 3em;
-            margin-top: 10px;
-        }
-        .txt5{
-            font-size: 0.7em;
-           }
-      
-        .b1 {
-            margin-top: 30px;
-            height: 4em;
-            width: 30em;
-            margin-left: 22%;
-            background-color: rgb(4, 4, 59);
-            color: ghostwhite;
-            border: none;
-            font-size: 15px;
-        }
-        .b1:hover {
-            color: ghostwhite;
-            background-color: black ;
-            border: none;
-            border-radius: 10px;
-        }
-        .footer {
-        display: block;
-        background-color:rgb(4, 4, 59) ;
-        height: 40em;
-        margin-top: 50px;
-        }
-        .foot1 {
-        display: flex;
-        justify-content: center;
-        padding-top: 100px;
-        color: ghostwhite;
-        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-        font-size: 1.3em;
-        }
-        .logotxt2 {
-        text-align: center;
-        margin-top: -2px;
-        color: ghostwhite;
-        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-        }
-        .foot2 {
-        display: block;
-        margin-top: 20px;
-        text-align: center;
-        
-        }
-        .foot2 a {
-        text-decoration: none;
-        color: ghostwhite;
-        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-        font-size: 1.5em;
-        }
-        .foot2 a:hover {
-        color: red;
-        }
-        .foot3 {
-        color: ghostwhite;
-        text-align: center;
-        margin-top: 20px;
-        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-        font-size: 1.5em;
-        }
-        .foot4 {
-            color: ghostwhite;
-            margin-top: -50px;
-            font-size: 1.5em;
-            text-align: center;
-            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-        }
-        label {
-        color: ghostwhite;
-        font-size: 1.7em;
-        
-        }
-       
-        .form {
-        margin-top: 20px;
-        text-align: center;
-        
-        }
-        .radio {
-        color: ghostwhite;
-        margin-top: 20px;
-        font-size: 1.2em;
-        text-align: center;
-        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-        }
-    }
-    @media only screen and (max-width: 479px){
-        .navbar {
-            display: none;
-        }
-        
-        .logo {
-        display: flex;
-        justify-content: flex-start;
-         background-color: black;
-         height: 15em;
-         font-size: 0.7em;
-         padding-left: 15px;
-         padding-top: 55px;
-         
-        
-        }
-        .mainbody {
-            overflow: hidden;
-            align-items: center;
-           }
-        .logo a {
-        text-decoration: none;
-        color: ghostwhite;
-        margin-top: 5px;
-        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-        }
-        .logotxt {
-        color: white;
-        padding-top: 28px;
-        font-size: 1.4em;
-        margin-left: -88px;
-        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-        }
-        
-        .add {
-            width: 100px;
-            height: 70px;
-            color: white;
-            visibility: visible;
-        }
-        .box {
-            width: 100px;
-            height: 50px;
-            color:#612717 ;
-            float: left;
-            margin-top: -110px;
-        }
-        .dropdown-content {
-            display: none;
-            position: absolute;
-            color: white;
-            background-color: ghostwhite;
-            z-index: 1;
-            width: 26.5em;
-            height: 15em;
-            margin-left: -350px;
-            border-radius: 10px;
-        
-          
-        
-        }
-        .dropdown {
-            position: relative;
-            display: inline-block;
-            padding-left: 350px;
-        
-        
-            
-            
-        }
-        .dropdown:hover  .dropdown-content {
-            display: block;
-            color: aliceblue;
-        }
-        ul a:hover {
-            color:mediumspringgreen;
-        }
-        ul a {
-            display: block;
-            color: black;
-            padding-top: 30px;
-            padding-left: 40px;
-            text-decoration: none;
-            font-family: georgia;
-            font-size: 1.2em;
-        }
-        .video {
-            position: relative;
-            margin-top: -100px;
-        }
-        .svg {
-            display: flex;
-            gap: 15px;
-            padding: 20px;
-        }
-        .number {
-            font-size: 1.3em;
-            margin-top: -2px;
-        }
-        .box-container {
-            display: block;
-        }
-        .box1{
-            background-color:mediumaquamarine;
-            height: 35em;
-            width: 27em;
-            position: sticky;
-            margin-top: -180px;
-            margin-left: 0%;
-            
-        }
-        .box1img {
-            background-image: url(tr11.jpg);
-            background-position: center;
-            background-size: cover;
-            height: 18em;
-            width: 24.5em;
-            margin-left: 17px;
-            margin-top: 15px;
-        }
-        .txt-container {
-            margin-left: 12px;
-            margin-top: 20px;
-        }
-        .line {
-            height: 1px;
-            margin-top: 20px;
-            background-color: black;
-            width: 26.5em;
-            margin-left: -10px;
-            
-        }
-        .line2 {
-            height: 1px;
-            margin-top: 30px;
-            background-color: black;
-            width: 26.5em;
-            margin-left: 1px;
-            
-        }
-        .box2 {
-            display: block;
-            margin-top: 100px;
-        
-        }
-        .box-container2{
-            background-color: rgb(245, 226, 226);
-            margin-left: 0%;
-            height: 33em;
-            width: 26.5em;
-            margin-top: 30px;
-            border-radius: 10px;
-            
-            
-        }
-        .box3 {
-            background-image: url(trf4.jpg);
-            background-position: center;
-            background-size: cover;
-            height: 25em;
-            width: 26.5em;
-            border-top-left-radius: 10px;
-            border-top-right-radius: 10px;
-            
-        
-            
-        }
-        .box4 {
-            background-image: url(tr18.avif);
-            background-position: center;
-            background-size: cover;
-            height: 25em;
-            width: 26.5em;
-            margin-top: 100px;
-            border-top-left-radius: 10px;
-            border-top-right-radius: 10px;
-        
-            
-        }
-        
-        .box5 {
-            background-image: url(tr2.jpg);
-            background-position: center;
-            background-size: cover;
-            height: 25em;
-            width: 26.5em;
-            margin-top: 100px;
-            border-top-left-radius: 10px;
-            border-top-right-radius: 10px;
-        
-            
-        }
-        .box-container3{
-            background-color: rgb(245, 226, 226);
-            height: 33em;
-            width: 26.5em;
-            margin-left: 0%;
-            border-radius: 10px;
-            
-        }
-        .box6{
-            background-image: url(trf2.avif);
-            background-position: center;
-            background-size: cover;
-            height: 25em;
-            width: 26.5em;
-            margin-top: 100px;
-            border-top-left-radius: 10px;
-            border-top-right-radius: 10px;
-            
-        
-            
-        }
-        .box7{
-            background-image: url(tr16.webp);
-            background-position: center;
-            background-size: cover;
-            height: 25em;
-            width: 26.5em;
-            margin-top: 100px;
-            border-top-left-radius: 10px;
-            border-top-right-radius: 10px;
-        
-            
-        }
-        .box-container4 {
-            display: block;
-            background-color: rgb(4, 4, 59);
-            height: 40em;
-            margin-top: 1630px;
-            padding-top: 20px;
-        }
-        .one {
-            text-align: center;
-            color: ghostwhite;
-            font-size: 3em;
-            margin-top: 29px;
-        }
-        .two {
-            text-align: center;
-            color: ghostwhite;
-            font-size: 2em;
-            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-            margin-top: 15px;
-        }
-        .box-container5 {
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            margin-left: 3%;
-            margin-top: 50px;
-            
-        }
-        .five{
-            background-image: url(tr8.jpg);
-            background-position: center;
-            background-size: cover;
-            height: 13em;
-            width: 12em;
-            border-radius: 10px;
-        }
-        .six{
-            background-image: url(tr3.jpg);
-            background-position: center;
-            background-size: cover;
-            height: 13em;
-            width: 12em;
-            border-radius: 10px;
-        }
-        .seven{
-            background-image: url(tr1.jpg);
-            background-position: center;
-            background-size: cover;
-            height: 13em;
-            width: 12em;
-            margin-top: 15px;
-            border-radius: 10px;
-        }
-        .eight{
-            background-image: url(tr7.webp);
-            background-position: center;
-            background-size: cover;
-            height: 13em;
-            width: 12em;
-            border-radius: 10px;
-            margin-top: 15px;
-        }
-        .nine{
-            background-image: url(tr10.jpg);
-            background-position: center;
-            background-size: cover;
-            height: 13em;
-            width: 12em;
-            margin-top: 15px;
-            border-radius: 10px;
-        }
-        .ten{
-            background-image: url(tr12.jpg);
-            background-position: center;
-            background-size: cover;
-            height: 13em;
-            width: 12em;
-            margin-top: 15px;
-            border-radius: 10px;
-        }
-        .eleven{
-            background-image: url(tr13.jpg);
-            background-position: center;
-            background-size: cover;
-            height: 13em;
-            width: 12em;
-            margin-top: 15px;
-            border-radius: 10px;
-        }
-        .twelve{
-            background-image: url(tr14.jpg);
-            background-position: center;
-            background-size: cover;
-            height: 13em;
-            width: 12em;
-            margin-top: 15px;
-            border-radius: 10px;
-        }
-        .text1 {
-            text-align: center;
-            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-            padding-top: 5px;
-            font-size: 1.7em;
-        }
-        .txt2 {
-            font-size: 1.2em;
-            padding-left: 10px;
-            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-            margin-top: -10px;
-        }
-        .txt22 {
-            margin-left: 15px;
-            margin-top: 20px;
-        }
-        .txt3 {
-            font-size: 2em;
-            margin-top: -2px;
-        }
-        .txt222 {
-            font-size: 1.5em;
-            padding-left: 10px;
-            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-        }
-        .txt4 {
-            font-size: 1em;
-            margin-top: 5px;
-        }
-        .txt5{
-            font-size: 0.7em;
-           }
-        .b1 {
-            margin-top: 30px;
-            height: 2.5em;
-            width: 15em;
-            margin-left: 24%;
-            background-color: rgb(4, 4, 59);
-            color: ghostwhite;
-            border: none;
-        }
-        .b1:hover {
-            color: ghostwhite;
-            background-color: black ;
-            border: none;
-            border-radius: 10px;
-        }
-        .footer {
-        display: block;
-        background-color:rgb(4, 4, 59) ;
-        height: 35em;
-        margin-top: 50px;
-        }
-        .foot1 {
-        display: flex;
-        justify-content: center;
-        padding-top: 80px;
-        color: ghostwhite;
-        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-        font-size: 1.2em;
-        }
-        .logotxt2 {
-        text-align: center;
-        margin-top: -5px;
-        color: ghostwhite;
-        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-        font-size: 1em;
-        }
-        .foot2 {
-        display: block;
-        margin-top: 20px;
-        text-align: center;
-        
-        }
-        .foot2 a {
-        text-decoration: none;
-        color: ghostwhite;
-        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-        font-size: 1.2em;
-        }
-        .foot2 a:hover {
-        color: red;
-        }
-        .foot3 {
-        color: ghostwhite;
-        text-align: center;
-        margin-top: 20px;
-        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-        font-size: 1.1em;
-        }
-        .foot4 {
-            color: ghostwhite;
-            margin-top: -50px;
-            font-size: 1.5em;
-            text-align: center;
-            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-        }
-        label {
-        color: ghostwhite;
-        
-        }
-        input [type="email"] {
-        margin:20px;
-        color: red;
-        }
-        .form {
-        margin-top: 20px;
-        text-align: center;
-        
-        }
-        .radio {
-        color: ghostwhite;
-        margin-top: 20px;
-        text-align: center;
-        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-        }
-    }
-    @media only screen and (max-width: 375px){
-        .navbar {
-            display: none;
-        }
-        .mainbody {
-            overflow: hidden;
-            align-items: center;
-           }
-        .logo {
-        display: flex;
-        justify-content: flex-start;
-         background-color: black;
-         height: 15em;
-         font-size: 0.6em;
-         padding-left: 15px;
-         padding-top: 45px;
-         
-        
-        }
-        .logo a {
-        text-decoration: none;
-        color: ghostwhite;
-        margin-top: 5px;
-        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-        }
-        .logotxt {
-        color: white;
-        padding-top: 28px;
-        font-size: 1.4em;
-        margin-left: -88px;
-        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-        }
-        
-        .add {
-            width: 100px;
-            height: 70px;
-            color: white;
-            visibility: visible;
-        }
-        .box {
-            width: 100px;
-            height: 50px;
-            color:#612717 ;
-            float: left;
-            margin-top: -95px;
-        }
-        .dropdown-content {
-            display: none;
-            position: absolute;
-            color: white;
-            background-color: ghostwhite;
-            z-index: 1;
-            width: 23.5em;
-            height: 15em;
-            margin-left: -300px;
-            border-radius: 10px;
-        
-          
-        
-        }
-        .dropdown {
-            position: relative;
-            display: inline-block;
-            padding-left: 300%;
-        
-        
-            
-            
-        }
-        .dropdown:hover  .dropdown-content {
-            display: block;
-            color: aliceblue;
-        }
-        ul a:hover {
-            color:mediumspringgreen;
-        }
-        ul a {
-            display: block;
-            color: black;
-            padding-top: 30px;
-            padding-left: 40px;
-            text-decoration: none;
-            font-family: georgia;
-            font-size: 1.2em;
-        }
-        .video {
-            position: relative;
-            margin-top: -100px;
-        }
-        .svg {
-            display: flex;
-            gap: 15px;
-            padding: 20px;
-        }
-        .number {
-            font-size: 1.3em;
-            margin-top: -2px;
-        }
-        .box-container {
-            display: block;
-        }
-        .box1{
-            background-color:mediumaquamarine;
-            height: 35em;
-            width: 24em;
-            position: sticky;
-            margin-top: -150px;
-            margin-left: 0%;
-            
-        }
-        .box1img {
-            background-image: url(tr11.jpg);
-            background-position: center;
-            background-size: cover;
-            height: 18em;
-            width: 21em;
-            margin-left: 19px;
-            margin-top: 15px;
-        }
-        .txt-container {
-            margin-left: 12px;
-            margin-top: 20px;
-        }
-        .line {
-            height: 1px;
-            margin-top: 20px;
-            background-color: black;
-            width: 24em;
-            margin-left: -10px;
-            
-        }
-        .line2 {
-            height: 1px;
-            margin-top: 30px;
-            background-color: black;
-            width: 24em;
-            margin-left: 1px;
-            
-        }
-        .box2 {
-            display: block;
-            margin-top: 100px;
-        
-        }
-        .box-container2{
-            background-color: rgb(245, 226, 226);
-            margin-left: 0;
-            height: 33em;
-            width: 23.5em;
-            margin-top: 30px;
-            border-radius: 10px;
-            
-        }
-        .box3 {
-            background-image: url(trf4.jpg);
-            background-position: center;
-            background-size: cover;
-            height: 25em;
-            width: 23.5em;
-            border-top-left-radius: 10px;
-            border-top-right-radius: 10px;
-        
-            
-        }
-        .box4 {
-            background-image: url(tr18.avif);
-            background-position: center;
-            background-size: cover;
-            height: 25em;
-            width: 23.5em;
-            margin-top: 100px;
-            border-top-left-radius: 10px;
-            border-top-right-radius: 10px;
-        
-            
-        }
-        
-        .box5 {
-            background-image: url(tr2.jpg);
-            background-position: center;
-            background-size: cover;
-            height: 25em;
-            width: 23.5em;
-            margin-top: 100px;
-            border-top-left-radius: 10px;
-            border-top-right-radius: 10px;
-        
-            
-        }
-        .box-container3{
-            background-color: rgb(245, 226, 226);
-            height: 33em;
-            width: 23.5em;
-            border-radius: 10px;
-            
-        }
-        .box6{
-            background-image: url(trf2.avif);
-            background-position: center;
-            background-size: cover;
-            height: 23em;
-            width: 23.5em;
-            margin-top: 100px;
-            border-top-left-radius: 10px;
-            border-top-right-radius: 10px;
-            
-        
-            
-        }
-        .box7{
-            background-image: url(tr16.webp);
-            background-position: center;
-            background-size: cover;
-            height: 25em;
-            width: 23.5em;
-            margin-top: 100px;
-            border-top-left-radius: 10px;
-            border-top-right-radius: 10px;
-            
-        
-            
-        }
-        .box-container4 {
-            display: block;
-            background-color: rgb(4, 4, 59);
-            height: 35em;
-            margin-top: 1630px;
-            padding-top: 20px;
-        }
-        .one {
-            text-align: center;
-            color: ghostwhite;
-            font-size: 2.5em;
-            margin-top: 25px;
-        }
-        .two {
-            text-align: center;
-            color: ghostwhite;
-            font-size: 1.5em;
-            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-            margin-top: 15px;
-        }
-        .box-container5 {
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            margin-left: 4.5%;
-            margin-top: 50px;
-        }
-        .five{
-            background-image: url(tr8.jpg);
-            background-position: center;
-            background-size: cover;
-            height: 11em;
-            width: 10em;
-        }
-        .six{
-            background-image: url(tr3.jpg);
-            background-position: center;
-            background-size: cover;
-            height: 11em;
-            width: 10em;
-        }
-        .seven{
-            background-image: url(tr1.jpg);
-            background-position: center;
-            background-size: cover;
-            height: 11em;
-            width: 10em;
-            margin-top: 20px;
-        }
-        .eight{
-            background-image: url(tr7.webp);
-            background-position: center;
-            background-size: cover;
-            height: 11em;
-            width: 10em;
-            margin-top: 20px;
-        }
-        .nine{
-            background-image: url(tr10.jpg);
-            background-position: center;
-            background-size: cover;
-            height: 11em;
-            width: 10em;
-            margin-top: 20px;
-        }
-        .ten{
-            background-image: url(tr12.jpg);
-            background-position: center;
-            background-size: cover;
-            height: 11em;
-            width: 10em;
-            margin-top: 20px;
-        }
-        .eleven{
-            background-image: url(tr13.jpg);
-            background-position: center;
-            background-size: cover;
-            height: 11em;
-            width: 10em;
-            margin-top: 20px;
-        }
-        .twelve{
-            background-image: url(tr14.jpg);
-            background-position: center;
-            background-size: cover;
-            height: 11em;
-            width: 10em;
-            margin-top: 20px;
-        }
-        .text1 {
-            text-align: center;
-            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-            padding-top: 5px;
-            font-size: 1.5em;
-        }
-        .txt2 {
-            margin-top: -5px;
-            font-size: 1.3em;
-            padding-left: 10px;
-            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-        }
-        .txt22 {
-            margin-left: 15px;
-            margin-top: 20px;
-        }
-        .txt3 {
-            font-size: 2em;
-    
-        }
-        .txt222 {
-            font-size: 1.5em;
-            padding-left: 10px;
-            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-        }
-        .txt4 {
-            font-size: 0.9em;
-            margin-top: -1px;
-        }
-        .txt5{
-            font-size: 0.7em;
-           }
-        .b1 {
-            margin-top: 30px;
-            height: 2.5em;
-            width: 12em;
-            margin-left: 27%;
-            background-color: rgb(4, 4, 59);
-            color: ghostwhite;
-            border: none;
-        }
-        .b1:hover {
-            color: ghostwhite;
-            background-color: black ;
-            border: none;
-            border-radius: 10px;
-        }
-        .footer {
-        display: block;
-        background-color:rgb(4, 4, 59) ;
-        height: 35em;
-        margin-top: 50px;
-        }
-        .foot1 {
-        display: flex;
-        justify-content: center;
-        padding-top: 80px;
-        color: ghostwhite;
-        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-        }
-        .logotxt2 {
-        text-align: center;
-        margin-top: -8px;
-        color: ghostwhite;
-        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-        }
-        .foot2 {
-        display: block;
-        margin-top: 20px;
-        text-align: center;
-        
-        }
-        .foot2 a {
-        text-decoration: none;
-        color: ghostwhite;
-        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-        }
-        .foot2 a:hover {
-        color: red;
-        }
-        .foot3 {
-        color: ghostwhite;
-        text-align: center;
-        margin-top: 20px;
-        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-        }
-        .foot4 {
-            color: ghostwhite;
-            margin-top: -20px;
-            font-size: 1.5em;
-            text-align: center;
-            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-        }
-        label {
-        color: ghostwhite;
-        
-        }
-        input [type="email"] {
-        margin:20px;
-        color: red;
-        }
-        .form {
-        margin-top: 20px;
-        text-align: center;
-        
-        }
-        .radio {
-        color: ghostwhite;
-        margin-top: 20px;
-        text-align: center;
-        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-        }
-    }
-    
-    
-   @media only screen and (max-width: 320px){
-    .logo {
-        display: flex;
-        justify-content: flex-start;
-         background-color: black;
-         height: 12em;
-         font-size: 0.6em;
-         padding-left: 15px;
-         padding-top: 30px;
-       }
-       .mainbody {
-        overflow: hidden;
-       }
-       .logo a {
-        text-decoration: none;
-        color: ghostwhite;
-        margin-top: 5px;
-        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-       }
-       .logotxt {
-        color: white;
-        padding-top: 28px;
-        font-size: 1.4em;
-        margin-left: -88px;
-        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-       }
-    
-        .add {
-            width: 100px;
-            height: 70px;
-            color: white;
-            visibility: visible;
-        }
-        .box {
-            width: 100px;
-            height: 50px;
-            color:#612717 ;
-            float: left;
-            align-items: center;
-            margin-top: -80px;
-        }
-        .dropdown-content {
-            display: none;
-            position: absolute;
-            color: white;
-            background-color: ghostwhite;
-            z-index: 1;
-            width: 20em;
-            height: 15em;
-            margin-left: -251px;
-            border-radius: 10px;
-            
-        
-          
-        
-        }
-        .dropdown {
-            position: relative;
-            display: inline-block;
-            padding-left: 250px;
-        
-    
-            
-            
-        }
-        .dropdown:hover  .dropdown-content {
-            display: block;
-            color: aliceblue;
-        }
-        ul a:hover {
-            color:mediumspringgreen;
-        }
-        ul a {
-            display: block;
-            color: black;
-            padding-top: 30px;
-            padding-left: 40px;
-            text-decoration: none;
-            font-family: georgia;
-            font-size: 1.2em;
-        }
-        .video {
-            position: relative;
-            margin-top: -100px;
-        }
-        .svg {
-            display: flex;
-            gap: 15px;
-            padding: 15px;
-        }
-        .number {
-            font-size: 1.3em;
-        }
-        .box-container {
-            display: block;
-            
-        }
-        .box1{
-            background-color:mediumaquamarine;
-            height: 32em;
-            width: 20em;
-            position: sticky;
-            margin-top: -150px;
-            margin-left: 0%;
-    
-            
-            
-        }
-        .box1img {
-            background-image: url(tr11.jpg);
-            background-position: center;
-            background-size: cover;
-            height: 15em;
-            width: 18em;
-            margin-left: 16px;
-            margin-top: 15px;
-        }
-        .txt-container {
-            margin-left: 12px;
-            margin-top: 20px;
-            
-        }
-        .line {
-            height: 1px;
-            margin-top: 20px;
-            background-color: black;
-            width: 20em;
-            margin-left: -10px;
-            
-        }
-        .line2 {
-            height: 1px;
-            margin-top: 20px;
-            background-color: black;
-            width: 20em;
-            margin-left: 1px;
-            
-        }
-        .box2 {
-            display: block;
-            margin-top: 100px;
+}
+.box7{
+    display: block;
+    text-align: center;
+}
+.box7 a {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+.footer-logo{
+    color: ghostwhite;
+}
+.f{
+    color: ghostwhite;
+}
+.f2{
+    color: ghostwhite; 
+    text-align: center;
+}
+.b2 {
+    height: 30px;
+    width: 150px;
+    border: none;
+    background-color: red;
+    color: white;
+}
 
-            
-        
-        }
-        .box-container2{
-            background-color: rgb(245, 226, 226);
-            margin-left: 0%;
-            height: 27em;
-            width: 20em;
-            margin-top: 30px;
-        
-            
-        }
-        .box3 {
-            background-image: url(trf4.jpg);
-            background-position: center;
-            background-size: cover;
-            height: 20em;
-            width: 20em;
-    
-            
-        }
-        .box4 {
-            background-image: url(tr18.avif);
-            background-position: center;
-            background-size: cover;
-            height: 20em;
-            width: 20em;
-            margin-top: 100px;
-    
-            
-        }
-    
-        .box5 {
-            background-image: url(tr2.jpg);
-            background-position: center;
-            background-size: cover;
-            height: 20em;
-            width: 20em;
-            margin-top: 100px;
-    
-            
-        }
-        .box-container3{
-            background-color: rgb(245, 226, 226);
-            height: 27em;
-            width: 20em;
-            
-            
-        }
-        .box6{
-            background-image: url(trf2.avif);
-            background-position: center;
-            background-size: cover;
-            height: 18em;
-            width: 20em;
-            margin-top: 100px;
-            
-    
-            
-        }
-        .box7{
-            background-image: url(tr16.webp);
-            background-position: center;
-            background-size: cover;
-            height: 20em;
-            width: 20em;
-            margin-top: 100px;
-            
-    
-            
-        }
-        .box-container4 {
-            display: block;
-            background-color: rgb(4, 4, 59);
-            height: 30em;
-            margin-top: 1430px;
-            padding-top: 20px;
-            
-        }
-        .one {
-            text-align: center;
-            color: ghostwhite;
-            font-size: 2em;
-            margin-top: 25px;
-        }
-        .two {
-            text-align: center;
-            color: ghostwhite;
-            font-size: 1.2em;
-            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-            margin-top: 15px;
-        }
-        .box-container5 {
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            margin-left: 3%;
-            margin-top: 50px;
-            
-        }
-        .five{
-            background-image: url(tr8.jpg);
-            background-position: center;
-            background-size: cover;
-            height: 10em;
-            width: 9em;
-        }
-        .six{
-            background-image: url(tr3.jpg);
-            background-position: center;
-            background-size: cover;
-            height: 10em;
-            width: 9em;
-        }
-        .seven{
-            background-image: url(tr1.jpg);
-            background-position: center;
-            background-size: cover;
-            height: 10em;
-            width: 9em;
-            margin-top: 10px;
-        }
-        .eight{
-            background-image: url(tr7.webp);
-            background-position: center;
-            background-size: cover;
-            height: 10em;
-            width: 9em;
-            margin-top: 10px;
-        }
-        .nine{
-            background-image: url(tr10.jpg);
-            background-position: center;
-            background-size: cover;
-            height: 10em;
-            width: 9em;
-            margin-top: 10px;
-        }
-        .ten{
-            background-image: url(tr12.jpg);
-            background-position: center;
-            background-size: cover;
-            height: 10em;
-            width: 9em;
-            margin-top: 10px;
-        }
-        .eleven{
-            background-image: url(tr13.jpg);
-            background-position: center;
-            background-size: cover;
-            height: 10em;
-            width: 9em;
-            margin-top: 10px;
-        }
-        .twelve{
-            background-image: url(tr14.jpg);
-            background-position: center;
-            background-size: cover;
-            height: 10em;
-            width: 9em;
-            margin-top: 10px;
-        }
-        .text1 {
-            text-align: center;
-            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-            padding-top: 5px;
-            font-size: 1.5em;
-        }
-        .txt2 {
-            margin-top: -10px;
-            font-size: 1.1em;
-            padding-left: 10px;
-            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-        }
-        .txt22 {
-            margin-left: 15px;
-            margin-top: 20px;
-        }
-        .txt3 {
-            font-size: 1.5em;
-            margin-top: 5px;
-        }
-        .txt222 {
-            font-size: 1.2em;
-            padding-left: 10px;
-            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-        }
-        .txt4 {
-            font-size: 0.9em;
-            margin-top: 1px;
-        }
-       .txt5{
-        font-size: 0.7em;
-       }
-        .b1 {
-            margin-top: 30px;
-            height: 2.5em;
-            width: 10em;
-            margin-left: 100px;
-            background-color: rgb(4, 4, 59);
-            color: ghostwhite;
-            border: none;
-        }
-        .b1:hover {
-            color: ghostwhite;
-            background-color: black ;
-            border: none;
-            border-radius: 10px;
-        }
-    .footer {
-        display: block;
-        background-color:rgb(4, 4, 59) ;
+@media only screen and (max-width: 479px){
+    .card {
         height: 30em;
-        margin-top: 50px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: -50px;
+        width: 70vw;
+        background-color:cadetblue;
+    }
+    .image-box{
+        width: 22em;
+        height: 20em;
+       margin-left: -32px;
+       margin-top: -45px;
+    }
+    .card-body{
+        padding-left: 20px;
+        margin-top: -120px;
+    }
+    .box-container{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 50px;
+        margin-top: 30px;
+        width: 85vw;
+        margin-left: auto;
+        margin-right: auto;
         
     }
-    .foot1 {
-        display: flex;
-        justify-content: center;
-        padding-top: 30px;
-        color: ghostwhite;
-        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    }
-    .logotxt2 {
-        text-align: center;
-        margin-top: -8px;
-        color: ghostwhite;
-        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    }
-    .foot2 {
+    .box-container2{
         display: block;
-        margin-top: 20px;
+        justify-content: center;
+        background-color: rgb(66, 29, 2);
+        height: 600px;
+        gap: 10px;
+        color: ghostwhite;
+        margin-top: 100px;
+    }
+    .box5{
+        display: flex;
+        flex-direction: column;
+        padding-top: 50px;
+     }
+     .text-two {
+         text-align: center;
+     }
+     .text-three {
         text-align: center;
+    }
+     .box-container3{
+         display: grid;
+         gap: 5px;
+        grid-template-columns: repeat(2, 1fr); 
+        width: 95vw;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 100px;
+    }
+    .one{
+        background-image: url(tr3.jpg);
+        background-position: center;
+        background-size: cover;
+        height: 200px;
+        width: 200px;
+    }
+    .two{
+        background-image: url(tr4.webp);
+        background-position: center;
+        background-size: cover;
+        height: 200px;
+        width: 200px; 
+        margin-bottom: 3px;
+    }
+    .three{
+        background-image: url(tr8.jpg);
+        background-position: center;
+        background-size: cover;
+        height: 200px;
+        width: 200px;
+    }
+    .four {
+        background-image: url(tr20.jpg);
+        background-position: center;
+        background-size: cover;
+        height: 200px;
+        width: 200px;
+        margin-bottom: 3px;
     
-    }
-    .foot2 a {
-        text-decoration: none;
-        color: ghostwhite;
-        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    }
-    .foot2 a:hover {
-        color: red;
-    }
-    .foot3 {
-        color: ghostwhite;
-        text-align: center;
-        margin-top: 20px;
-        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    }
-    .foot4 {
-        color: ghostwhite;
-        margin-top: -20px;
-        font-size: 1.5em;
-        text-align: center;
-        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    }
-    label {
-        color: ghostwhite;
-    
-    }
-   
-    .form {
-        margin-top: 20px;
-        text-align: center;
-        
-    }
-    .radio {
-        color: ghostwhite;
-        margin-top: 20px;
-        text-align: center;
-        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    }
-   }
-  
 
+    
+    }
+    .five{
+        background-image: url(tr15.jpg);
+        background-position: center;
+        background-size: cover;
+        height: 200px;
+        width: 200px;
+    }
+    .six{
+        background-image: url(tr17.jpg);
+        background-position: center;
+        background-size: cover;
+        height: 200px;
+        width: 200px;
+        margin-bottom: 3px;
+    }
+    .seven {
+        background-image: url(tr18.avif);
+        background-position: center;
+        background-size: cover;
+        height: 200px;
+        width: 200px;
+    }
+    .eight {
+        background-image: url(tr10.jpg);
+        background-position: center;
+        background-size: cover;
+        height: 200px;
+        width: 200px;
+        margin-bottom: 3px;
+    }
+    .b1 {
+        margin-top: 50px;
+        text-align: center;
+        width: 250px;
+        color: ghostwhite;
+        height: 50px;
+        margin-left: 100px;
+        border: none;
+        background-color: rgb(59, 27, 3);
+    }
+    .box-container4 {
+        display: block;
+        gap: 150px;
+        justify-content: center;
+        background-color: palevioletred;
+        margin-top: 100px;
+        height: 600px;
+        padding-top: 100px;
+    }
+    
+}

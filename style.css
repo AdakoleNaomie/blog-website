@@ -6,14 +6,17 @@
     margin-top: -300px;
     width: 70vw;
     background-color:cadetblue;
+    border-radius: 10px;
 
 }
 .mainnav {
     position: fixed;
     z-index: 100;
     width: 100vw;
+    
 }
 h1 {
+
     color: black;
     padding-top: 15px;
     font-size: 1.5em;
@@ -22,6 +25,7 @@ h1 {
 }
 .navbar1{
     padding-left: 100px;
+    
 }
 
 .text-one{
@@ -260,24 +264,33 @@ h1 {
     color: white;
 }
 
-@media only screen and (max-width: 479px){
+@media only screen  and (max-width: 479px){
     .card {
         height: 30em;
         margin-left: auto;
         margin-right: auto;
         margin-top: -50px;
-        width: 70vw;
+        width: 85vw;
         background-color:cadetblue;
     }
+    h1{
+        margin-left: -140px;
+    } 
+    .logotxt {
+        margin-left: -120px;
+    }
     .image-box{
-        width: 22em;
+    width: 27em;
         height: 20em;
-       margin-left: -32px;
+       margin-left: -37px;
        margin-top: -45px;
     }
     .card-body{
         padding-left: 20px;
         margin-top: -120px;
+    }
+    .carosel {
+        padding-top: 100px;
     }
     .box-container{
         display: grid;
@@ -313,72 +326,48 @@ h1 {
          display: grid;
          gap: 5px;
         grid-template-columns: repeat(2, 1fr); 
-        width: 95vw;
+        width: 90vw;
         margin-left: auto;
         margin-right: auto;
         margin-top: 100px;
     }
     .one{
-        background-image: url(tr3.jpg);
-        background-position: center;
-        background-size: cover;
-        height: 200px;
-        width: 200px;
+        height: 180px;
+        width: 180px;
     }
     .two{
-        background-image: url(tr4.webp);
-        background-position: center;
-        background-size: cover;
-        height: 200px;
-        width: 200px; 
-        margin-bottom: 3px;
+        height: 180px;
+        width: 180px; 
+        margin-bottom: 15px;
     }
     .three{
-        background-image: url(tr8.jpg);
-        background-position: center;
-        background-size: cover;
-        height: 200px;
-        width: 200px;
+        height: 180px;
+        width: 180px;
     }
     .four {
-        background-image: url(tr20.jpg);
-        background-position: center;
-        background-size: cover;
-        height: 200px;
-        width: 200px;
-        margin-bottom: 3px;
+        height: 180px;
+        width: 180px;
+        margin-bottom: 15px;
     
 
     
     }
     .five{
-        background-image: url(tr15.jpg);
-        background-position: center;
-        background-size: cover;
-        height: 200px;
-        width: 200px;
+        height: 180px;
+        width: 180px;
     }
     .six{
-        background-image: url(tr17.jpg);
-        background-position: center;
-        background-size: cover;
-        height: 200px;
-        width: 200px;
-        margin-bottom: 3px;
+        height: 180px;
+        width: 180px;
+        margin-bottom: 15px;
     }
     .seven {
-        background-image: url(tr18.avif);
-        background-position: center;
-        background-size: cover;
-        height: 200px;
-        width: 200px;
+        height: 180px;
+        width: 180px;
     }
     .eight {
-        background-image: url(tr10.jpg);
-        background-position: center;
-        background-size: cover;
-        height: 200px;
-        width: 200px;
+        height: 180px;
+        width: 180px;
         margin-bottom: 3px;
     }
     .b1 {
@@ -401,4 +390,79 @@ h1 {
         padding-top: 100px;
     }
     
+    .svg2{
+        display: flex;
+        gap: 0px;
+        margin-left: 110px;
+       
+    
+    }
+  .f2{
+    margin-left: -30px;
+    margin-bottom: 50px;
+  }
+    .box8 {
+        margin-left: 120px;
+    }
+}
+@media only screen and (max-width:375px){
+    .card {
+        height: 30em;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: -50px;
+        width: 85vw;
+        background-color:cadetblue;
+    }
+    .image-box{
+        width: 24.5em;
+        height: 20em;
+       margin-left: -37px;
+       margin-top: -45px;
+    }
+    .card-body{
+        padding-left: 20px;
+        margin-top: -140px;
+    }
+    .box-container{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 50px;
+        margin-top: 30px;
+        width: 93vw;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+    .box-container3{
+        display: grid;
+        gap: 5px;
+       grid-template-columns: repeat(2, 1fr); 
+       width: 98vw;
+       margin-left: auto;
+       margin-right: auto;
+       margin-top: 100px;
+   }
+   .two{
+    margin-bottom: 2px;
+}
+.four{
+    margin-bottom: 2px;
+}
+.six{
+    margin-bottom: 2px;
+}
+.b1 {
+margin-left: 60px;
+}
+
+
+.svg2{
+    display: flex;
+    gap: 0px;
+    margin-left: 110px;
+   
+
+}
+
 }

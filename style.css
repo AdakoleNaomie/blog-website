@@ -16,8 +16,8 @@
     
 }
 h1 {
-
-    color: black;
+    color: cadetblue;
+    margin-left: 20px;
     padding-top: 15px;
     font-size: 1.5em;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -25,15 +25,20 @@ h1 {
 }
 .navbar1{
     padding-left: 100px;
+
     
+}
+.nav-link {
+    color: cadetblue;
 }
 
 .text-one{
     padding-left: 47px;
 }
  .logotxt{
-    color:black;
+    color:cadetblue;
     margin-top: -10px;
+    margin-left: 45px;
 }
 
 .form {
@@ -53,13 +58,15 @@ h1 {
     background-color: yellow;
     width: 40px;
     padding: 2px;
-    position: sticky;
     margin-left: 1310px;
     margin-top: -500px;
     position: fixed;
+    z-index: 100;
     
 }
-
+.svg:hover {
+    background-color: rgb(95, 95, 189);
+}
 .svg {
     padding: 7px;
 }
@@ -132,7 +139,7 @@ h1 {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    background-color: rgb(66, 29, 2);
+    background-color: deeppink;
     height: 300px;
     gap: 50px;
     color: ghostwhite;
@@ -215,28 +222,25 @@ h1 {
 .b1 {
     margin-top: 50px;
     text-align: center;
-    width: 250px;
-    color: ghostwhite;
+    width: 350px;
+    color: black;
     height: 50px;
-    margin-left: 550px;
+    margin-left: 500px;
+    border-radius: 10px;
     border: none;
-    background-color: rgb(59, 27, 3);
+    background-color: skyblue;
 }
 .box-container4 {
     display: flex;
     gap: 150px;
     justify-content: center;
-    background-color: palevioletred;
+    background-color: deeppink;
     margin-top: 100px;
     height: 400px;
     padding-top: 100px;
 }
 
-.svg2{
-    display: flex;
-    gap: 10px;
 
-}
 .box7{
     display: block;
     text-align: center;
@@ -260,8 +264,196 @@ h1 {
     height: 30px;
     width: 150px;
     border: none;
-    background-color: red;
-    color: white;
+    background-color: skyblue;
+    color: black;
+}
+@media only screen and (max-width:991px){
+   .card {
+    margin-top: -100px;
+   }
+   .image-box {
+    height: 27em;
+    width: 28em;
+   }
+   .card-body {
+    font-size: 1.1em;
+    margin-top: -10px;
+   }
+   .svg-container{
+    margin-left: 950px;
+    margin-top: -50px;
+    position: fixed;
+    z-index: 100;
+    
+}
+   .box-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 100px;
+    margin-top: 30px;
+    width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.box-container3{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 85vw;
+    gap: 10px;
+   
+
+}
+.one{
+    height: 300px;
+    width: 400px;
+}
+.two{
+    height: 300px;
+    width:400px; 
+    margin-bottom: 15px;
+}
+.three{
+    height: 300px;
+    width:400px; 
+}
+.four {
+    height: 300px;
+    width:400px; 
+    margin-bottom: 15px;
+}
+.five{
+    height: 300px;
+    width:400px; 
+}
+.six{
+    height: 300px;
+    width:400px; 
+    margin-bottom: 15px;
+}
+.seven {
+    height: 300px;
+    width:400px; 
+}
+.eight {
+    height: 300px;
+    width:400px; 
+    margin-bottom: 15px;
+}
+.b1 {
+    margin-left: 300px;
+}
+.footer-logo {
+    margin-left: 50px;
+}
+.f2 {
+    margin-left: 25px;
+}
+
+}
+@media only screen and (max-width:768px){
+    .card {
+        margin-top: -130px;
+        height: 40em;
+        width: 40em;
+    }
+    .carosel {
+        padding-top: 100px;
+        margin-left: -100px;
+        
+    }
+   
+    .image-box{
+        width: 40em;
+        height: 25em;
+       padding: 50px;
+       margin-top: -45px;
+    }
+
+    .card-body{
+        padding-left: 20px;
+        margin-top: 300px;
+        font-size: 1.2em;
+        margin-left: -190px;
+    }
+    .text-one{
+        text-align: center;
+    }
+    .svg-container{
+        margin-left: 830px;
+        margin-top: -50px;
+        position: fixed;
+        z-index: 100;
+        
+    }
+    .box-container{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 50px;
+        margin-top: 30px;
+        width: 98vw;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+    .box-container3{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        width: 85vw;
+        gap: 10px;
+       
+
+    }
+    .one{
+        height: 200px;
+        width: 320px;
+    }
+    .two{
+        height: 200px;
+        width:320px; 
+        margin-bottom: 3px;
+    }
+    .three{
+        height: 200px;
+        width:320px; 
+    }
+    .four {
+        height: 200px;
+        width:320px; 
+        margin-bottom: 3px;
+    }
+    .five{
+        height: 200px;
+        width:320px; 
+    }
+    .six{
+        height: 200px;
+        width:320px; 
+        margin-bottom: 3px;
+    }
+    .seven {
+        height: 200px;
+        width:320px; 
+    }
+    .eight {
+        height: 200px;
+        width:320px; 
+        margin-bottom: 3px;
+    }
+    .b1 {
+        margin-left: 200px;
+    }
+    .box-container4{
+        gap: 80px;
+    }
+    .footer-logo {
+        margin-left: 50px;
+    }
+    .f2 {
+        margin-left: 25px;
+    }
+
+  
 }
 
 @media only screen  and (max-width: 479px){
@@ -286,11 +478,34 @@ h1 {
        margin-top: -45px;
     }
     .card-body{
-        padding-left: 20px;
-        margin-top: -120px;
+        margin-left: 5px;
+        margin-top: -140px;
+        font-size: 0.8em;
+    }
+    .text-one{
+        text-align: center;
+    }
+    .txt1 {
+        text-align: center;
     }
     .carosel {
         padding-top: 100px;
+    }
+    .svg-container{
+        background-color: yellow;
+        width: 40px;
+        padding: 2px;
+        margin-left: 480px;
+        margin-top: -100px;
+        position: fixed;
+        z-index: 100;
+        
+    }
+    .svg:hover {
+        background-color: rgb(95, 95, 189);
+    }
+    .svg {
+        padding: 7px;
     }
     .box-container{
         display: grid;
@@ -305,7 +520,7 @@ h1 {
     .box-container2{
         display: block;
         justify-content: center;
-        background-color: rgb(66, 29, 2);
+        background-color:deeppink;
         height: 600px;
         gap: 10px;
         color: ghostwhite;
@@ -348,9 +563,6 @@ h1 {
         height: 180px;
         width: 180px;
         margin-bottom: 15px;
-    
-
-    
     }
     .five{
         height: 180px;
@@ -378,31 +590,34 @@ h1 {
         height: 50px;
         margin-left: 100px;
         border: none;
-        background-color: rgb(59, 27, 3);
+        background-color: skyblue;
     }
     .box-container4 {
         display: block;
         gap: 150px;
         justify-content: center;
-        background-color: palevioletred;
+        background-color: deeppink;
         margin-top: 100px;
         height: 600px;
         padding-top: 100px;
     }
-    
-    .svg2{
-        display: flex;
-        gap: 0px;
-        margin-left: 110px;
-       
-    
+    .box7 {
+        margin-top: 20px;
     }
-  .f2{
-    margin-left: -30px;
-    margin-bottom: 50px;
+   .f2{
+    text-align: center;
+    margin-top: -10px;
+   }
+  .f3{
+    text-align: center;
+    margin-top: 20px;
+    color: ghostwhite;
   }
     .box8 {
-        margin-left: 120px;
+        text-align: center;
+    }
+    .footer-logo{
+        text-align: center;
     }
 }
 @media only screen and (max-width:375px){
@@ -422,7 +637,14 @@ h1 {
     }
     .card-body{
         padding-left: 20px;
-        margin-top: -140px;
+        margin-top: -145px;
+    }
+    .svg-container{
+        margin-left: 435px;
+        margin-top: -100px;
+        position: fixed;
+        z-index: 100;
+        
     }
     .box-container{
         display: grid;
@@ -454,15 +676,6 @@ h1 {
 }
 .b1 {
 margin-left: 60px;
-}
-
-
-.svg2{
-    display: flex;
-    gap: 0px;
-    margin-left: 110px;
-   
-
 }
 
 }

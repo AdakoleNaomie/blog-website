@@ -605,7 +605,7 @@ h1 {
         margin-top: 20px;
     }
    .f2{
-    text-align: center;
+   margin-left: -15px;
     margin-top: -10px;
    }
   .f3{
@@ -617,7 +617,7 @@ h1 {
         text-align: center;
     }
     .footer-logo{
-        text-align: center;
+       margin-left: 150px;
     }
 }
 @media only screen and (max-width:375px){
@@ -677,5 +677,11 @@ h1 {
 .b1 {
 margin-left: 60px;
 }
-
+.footer-logo {
+ margin-left: 130px;
+}
+.f2 {
+    margin-top: 1px;
+    margin-left: 2px;
+}
 }

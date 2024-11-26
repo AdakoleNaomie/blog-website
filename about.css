@@ -101,6 +101,7 @@ h1 {
     width: 200px;
     border: none;
     margin-top: 20px;
+    color: rgb(2, 2, 51);
 }
 .b3:hover{
     background-color: deeppink;
@@ -220,6 +221,7 @@ h1 {
     }
     .b3{
        margin-left: -20px;
+       color: rgb(2, 2, 51);
     }
     .b3:hover{
         background-color: deeppink;
@@ -239,7 +241,7 @@ h1 {
         background-color: ghostwhite;
         width: 40px;
         padding: 2px;
-        margin-left: 385px;
+        margin-left: 380px;
         margin-top: -500px;
         position: fixed;
         z-index: 100;
@@ -280,11 +282,14 @@ h1 {
     margin-right: auto;
     }
     .b3 {
-        margin-left: 60px;
+       
+      margin-left: 80px;
         height: 2.5em;
         width: 200px;
         border: none;
+        
         margin-top: 20px;
+        color: rgb(2, 2, 51);
     }
     .box-container4 {
         display: block;

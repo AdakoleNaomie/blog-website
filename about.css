@@ -1,0 +1,373 @@
+.mainnav {
+    position: fixed;
+    z-index: 100;
+    width: 100vw;
+    
+}
+h1 {
+    color: cadetblue;
+    margin-left: 20px;
+    padding-top: 15px;
+    font-size: 1.5em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  
+}
+.navbar1{
+    padding-left: 100px;   
+}
+.nav-link{
+ color: black;
+   
+    
+}
+
+.text-one{
+    padding-left: 47px;
+}
+ .logotxt{
+    color:cadetblue;
+    margin-top: -10px;
+    margin-left: 45px;
+}
+
+.form {
+    padding-left: 50px;
+}
+.svg-container{
+    background-color: ghostwhite;
+    width: 40px;
+    padding: 2px;
+    margin-left: 1310px;
+    margin-top: -500px;
+    position: fixed;
+    z-index: 100;
+    
+}
+.svg:hover {
+    background-color: rgb(95, 95, 189);
+}
+.svg{
+    padding: 7px;
+}
+.sub {
+    color:black;
+    text-align: center;
+    padding-top: 150px;
+    font-size: 4em;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(2, 2, 51);
+    margin-bottom: 30px;
+}
+.mainonecontainer {
+    background-color: rgb(2, 2, 51);
+    height: 650px;
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    transform: translateY(100px);
+    opacity: 0;
+    transition: 1200ms;
+}
+.mainonecontainer.show{
+    opacity: 1;
+    transform: translateY(0);
+}
+.containerone{
+    display: flex;
+    color: ghostwhite;
+}
+.boxone{
+    background-image: url(beautiful1.jpg);
+    height: 650px;
+    width: 500px;
+    background-position: center;
+    background-size: cover;
+}
+.boxtwo {
+    width: 400px;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+.texts1{
+    font-size: 3em;
+    font-family: 'lucida sans'
+}
+.texts2{
+    font-family: verdana
+}
+.b3 {
+    height: 2.5em;
+    width: 200px;
+    border: none;
+    margin-top: 20px;
+}
+.b3:hover{
+    background-color: deeppink;
+    color: ghostwhite;
+    box-shadow: 2px 2px 2px white;
+    transition: 800ms;
+}
+
+.box-container4 {
+    display: flex;
+    gap: 150px;
+    justify-content: center;
+    background-color: rgb(2, 2, 51);
+    margin-top: 100px;
+    height: 400px;
+    padding-top: 100px;
+    
+}
+
+
+.box7{
+    display: block;
+    text-align: center;
+}
+.box7 a {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+.footer-logo{
+    color: ghostwhite;
+}
+.f{
+    color: ghostwhite;
+}
+.f2{
+    color: ghostwhite; 
+    text-align: center;
+}
+.f3 {
+    color: ghostwhite;
+}
+.b2 {
+    height: 30px;
+    width: 150px;
+    border: none;
+    background-color: skyblue;
+    color: black;
+}
+@media only screen and (max-width:991px){
+    .svg-container{
+        background-color: ghostwhite;
+        width: 40px;
+        padding: 2px;
+        margin-left: 865px;
+        margin-top: -500px;
+        position: fixed;
+        z-index: 100;
+        
+    }
+    .sub{
+        font-size:2em;
+    }
+    .svg:hover {
+        background-color: rgb(95, 95, 189);
+    }
+    .svg{
+        padding: 7px;
+    }
+    .texts1 {
+       margin-left: -80px;
+    }
+    .texts2 {
+       margin-left: -80px;
+    }
+    .footer-logo {
+        margin-left: 40px;
+    }
+    .b3{
+        margin-left: 1px;
+    }
+    .b3:hover{
+        background-color: deeppink;
+        color: ghostwhite;
+        box-shadow: 2px 2px 2px white;
+        transition: 800ms;
+    }
+}
+@media only screen and (max-width:768px) {
+    .svg-container{
+        background-color: ghostwhite;
+        width: 40px;
+        padding: 2px;
+        margin-left: 700px;
+        margin-top: -500px;
+        position: fixed;
+        z-index: 100;
+        
+    }
+   
+    .mainonecontainer{
+        max-width: 90%;
+    }
+    .sub{
+        font-size: 2em;
+    }
+    .boxone{
+        width: 550px;
+    }
+    .texts1{
+        margin-left: -70px;
+        font-size: 1.8em;
+        margin-top: -70px;
+    }
+    .texts2{
+        margin-left: -70px;
+    }
+    .b3{
+       margin-left: -20px;
+    }
+    .b3:hover{
+        background-color: deeppink;
+        color: ghostwhite;
+        box-shadow: 2px 2px 2px white;
+        transition: 800ms;
+    }
+    .footer-logo{
+        padding-left: 20px;
+    }
+    .f2 {
+        padding-left: 15px;
+    }
+}
+@media only screen and (max-width:479px) {
+    .svg-container{
+        background-color: ghostwhite;
+        width: 40px;
+        padding: 2px;
+        margin-left: 385px;
+        margin-top: -500px;
+        position: fixed;
+        z-index: 100;
+        
+    }
+    
+    .containerone{
+        display: block;
+        color: ghostwhite;
+        
+    }
+    .sub {
+        font-size: 1.7em;
+    }
+    .boxone{
+        background-image: url(beautiful1.jpg);
+        height: 300px;
+        max-width: 100%;
+        background-position: center;
+        background-size: cover;
+    }
+    .boxtwo {
+        max-width:100% ;
+        margin-top: 30px;
+        margin-left: 10px;
+        
+    }
+    .texts1{
+    font-size: 1.5em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    
+    }
+      .texts2 {
+        font-size: 1em;
+        margin-left: auto;
+    margin-right: auto;
+    }
+    .b3 {
+        margin-left: 60px;
+        height: 2.5em;
+        width: 200px;
+        border: none;
+        margin-top: 20px;
+    }
+    .box-container4 {
+        display: block;
+        gap: 150px;
+        justify-content: center;
+        background-color: rgb(2, 2, 51);
+        margin-top: 100px;
+        height: 600px;
+        padding-top: 100px;
+    }
+    .box7 {
+        margin-top: 20px;
+    }
+   .f2{
+   margin-left: -15px;
+    margin-top: -10px;
+   }
+  .f3{
+    text-align: center;
+    margin-top: 20px;
+    color: ghostwhite;
+  }
+    .box8 {
+        text-align: center;
+    }
+    .footer-logo{
+       margin-left: 135px;
+    }
+    
+}
+@media only screen and (max-width:375px) {
+    .svg-container{
+        background-color: ghostwhite;
+        width: 40px;
+        padding: 2px;
+        margin-left: 335px;
+        margin-top: -500px;
+        position: fixed;
+        z-index: 100;
+        
+    }
+   
+}
+@media only screen and (max-width:320px) {
+    .svg-container{
+        background-color: ghostwhite;
+        width: 40px;
+        padding: 2px;
+        margin-left: 290px;
+        margin-top: -450px;
+        position: fixed;
+        z-index: 100;
+        
+    }
+   
+    .boxone{
+        height: 250px;
+        width: 270.5px;
+    }
+   .texts1{
+    font-size: 1.2em;
+    margin-left: auto;
+    margin-right: auto;
+    
+   }
+   .texts2{
+    font-size: 0.7em;
+    
+   }
+   .mainonecontainer{
+    height: 500px;
+    max-width:85% ;
+   }
+   .b3 {
+    margin-left: 28px;
+    height: 2em;
+   }
+   .footer-logo {
+    margin-left: 100px;
+   
+   }
+   .f2{
+    margin-left: -5px;
+   }
+
+}

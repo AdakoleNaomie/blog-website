@@ -16,7 +16,7 @@ h1 {
     padding-left: 100px;   
 }
 .nav-link{
- color: black;
+ color: cadetblue;
    
     
 }
@@ -50,11 +50,11 @@ h1 {
     padding: 7px;
 }
 .sub {
-    color:black;
+
     text-align: center;
     padding-top: 150px;
     font-size: 4em;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'segoe ui';
     color: rgb(2, 2, 51);
     margin-bottom: 30px;
 }
@@ -91,10 +91,10 @@ h1 {
 }
 .texts1{
     font-size: 3em;
-    font-family: 'lucida sans'
+    font-family: 'segoe ui';
 }
 .texts2{
-    font-family: verdana
+    font-family: verdana;
 }
 .b3 {
     height: 2.5em;
@@ -121,7 +121,9 @@ h1 {
     
 }
 
-
+label {
+    color: ghostwhite;
+}
 .box7{
     display: block;
     text-align: center;

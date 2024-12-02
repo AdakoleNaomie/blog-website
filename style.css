@@ -35,8 +35,11 @@ h1 {
 
     
 }
+label {
+    color: ghostwhite;
+}
 .nav-link {
-    color: cadetblue;
+    color:cadetblue;
 }
 
 .text-one{
@@ -132,6 +135,14 @@ h1 {
     width: 350px;
     background-position: center;
     background-size: cover;
+    opacity: 0;
+    transform: translateZ(100);
+    transition: 1500ms;
+
+}
+.boximg2.show{
+    opacity: 1;
+    transform: translateZ(0);
 }
 .boximg3 {
     background-image: url(trf4.jpg);
@@ -139,6 +150,14 @@ h1 {
     width: 350px;
     background-position: center;
     background-size: cover;
+    opacity: 0;
+    transform: translateZ(100);
+    transition: 1500ms;
+
+}
+.boximg3.show{
+    opacity: 1;
+    transform: translateZ(0);
 }
 
 .boximg4 {
@@ -147,6 +166,14 @@ h1 {
     width: 350px;
     background-position: center;
     background-size: cover;
+    opacity: 0;
+    transform: translateZ(100);
+    transition: 1500ms;
+
+}
+.boximg4.show{
+    opacity: 1;
+    transform: translateZ(0);
 }
 
 .box-container2{
@@ -167,13 +194,21 @@ h1 {
 .text-two {
     text-align: center;
 }
-.box-container3{
+.boxcontainer3{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     width: 90vw;
     margin-left: auto;
     margin-right: auto;
     margin-top: 100px;
+    opacity: 0;
+    transform: translateZ(100);
+    transition: 1500ms;
+
+}
+.boxcontainer3.show{
+    opacity: 1;
+    transform: translateZ(0);
 }
 .one{
     background-image: url(tr3.jpg);
@@ -313,7 +348,7 @@ h1 {
     margin-right: auto;
     
 }
-.box-container3{
+.boxcontainer3{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     width: 85vw;
@@ -413,7 +448,7 @@ h1 {
         margin-right: auto;
         
     }
-    .box-container3{
+    .boxcontainer3{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         width: 85vw;
@@ -556,7 +591,7 @@ h1 {
      .text-three {
         text-align: center;
     }
-     .box-container3{
+     .boxcontainer3{
          display: grid;
          gap: 5px;
         grid-template-columns: repeat(2, 1fr); 
@@ -693,7 +728,7 @@ h1 {
     .boximg3{
         width: 300px;
     }
-    .box-container3{
+    .boxcontainer3{
         display: grid;
         gap: 5px;
        grid-template-columns: repeat(2, 1fr); 

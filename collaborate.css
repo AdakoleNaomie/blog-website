@@ -5,7 +5,7 @@
     
 }
 h1 {
-    color: cadetblue;
+    color: rgb(2, 2, 51);
     margin-left: 20px;
     padding-top: 15px;
     font-size: 1.5em;
@@ -19,7 +19,7 @@ label{
     padding-left: 100px;   
 }
 .nav-link{
- color: cadetblue;
+ color: rgb(2, 2, 51);
    
     
 }
@@ -28,7 +28,7 @@ label{
     padding-left: 47px;
 }
  .logotxt{
-    color:cadetblue;
+    color:rgb(2, 2, 51);
     margin-top: -10px;
     margin-left: 45px;
 }
@@ -104,6 +104,27 @@ label{
     font-size: 1.5em;
     
 }
+.texts3 {
+    text-align: center;
+    margin-top: 100px;
+    font-size: 2em;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(2, 2, 51);
+}
+.logocontainer{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    opacity: 0;
+    transform: translateZ(100);
+    transition: 2500ms;
+    max-width: 100%;
+}
+.logocontainer.show{
+    opacity: 1;
+    transform: translateZ(0);
+}
+
 .b3 {
     height: 2.5em;
     width: 200px;
@@ -209,6 +230,11 @@ label{
         z-index: 100;
         
     }
+    .logocontainer{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin-left: 100px; 
+       }
    
     .mainonecontainer{
         max-width: 90%;
@@ -227,6 +253,9 @@ label{
     .texts2{
         margin-left: -70px;
         font-size: 1.2em;
+    }
+    .texts3{
+        font-size: 1.5em;
     }
     .b3{
        margin-left: -20px;
@@ -256,7 +285,11 @@ label{
         z-index: 100;
         
     }
-    
+    .logocontainer{
+        display: inline-block;
+        margin-left: 100px;
+        
+       }
     .containerone{
         display: block;
         color: ghostwhite;
@@ -346,6 +379,11 @@ label{
     .texts1{
         margin-top: -10px;
     }
+    .logocontainer{
+        display: inline-block;
+        margin-left: 80px;
+        
+       }
    
 }
 @media only screen and (max-width:320px) {
@@ -359,7 +397,11 @@ label{
         z-index: 100;
         
     }
-   
+   .logocontainer{
+    display: inline-block;
+    margin-left: 50px;
+    
+   }
     .boxone{
         height: 250px;
         width: 270.5px;

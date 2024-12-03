@@ -5,7 +5,7 @@
     
 }
 h1 {
-    color: cadetblue;
+    color: rgb(94, 42, 5);
     margin-left: 20px;
     padding-top: 15px;
     font-size: 1.5em;
@@ -16,7 +16,7 @@ h1 {
     padding-left: 100px;   
 }
 .nav-link{
- color: cadetblue;
+ color: rgb(94, 42, 5);
    
     
 }
@@ -25,7 +25,7 @@ h1 {
     padding-left: 47px;
 }
  .logotxt{
-    color:cadetblue;
+    color:rgb(94, 42, 5);
     margin-top: -10px;
     margin-left: 45px;
 }
@@ -38,18 +38,25 @@ h1 {
     text-align: center;
 }
 .body-d {
-    margin-top: 100px;
+    margin-top: 50px;
 }
 .mainform {
-    background-color: cadetblue;
+    background-color:rgb(94, 42, 5);
     height: 500px;
     margin-top: 50px;
     padding: 50px;
-    max-width: 60%;
+    max-width: 70%;
     margin-left: auto;
     margin-right: auto;
+    border: 1px black solid;
    
 }
+.subone{
+ color:rgb(94, 42, 5) ;
+}
+.subtwo{
+    color:rgb(94, 42, 5) ;
+   }
 .form-div {
     display: grid;
     justify-content: center;
@@ -66,17 +73,39 @@ h1 {
 }
 .form-div3 {
     margin-top: 50px;
-    margin-left: 40px;
+    margin-left: 175px;
+    
+}
+.svg-container{
+    background-color: ghostwhite;
+    width: 40px;
+    padding: 2px;
+    margin-left: 1310px;
+    margin-top: -500px;
+    position: fixed;
+    z-index: 100;
+    
+}
+.svg:hover {
+    background-color: rgb(95, 95, 189);
+}
+.svg{
+    padding: 7px;
 }
 .button {
     width: 500px;
-    margin-left: 105px;
+    margin-left: 175px;
     border: none;
-    margin-top: 20px;
+    margin-top: -40px;
     height: 40px;
-    background-color: rgb(248, 190, 43);
-    color: green;
+    background-color:wheat ;
+    color: black;
     border-radius: 10px;
+}
+.button:hover{
+    background-color: ghostwhite;
+    transition: 1000ms;
+    border: black solid 2px;
 }
 label {
     color: ghostwhite;
@@ -120,4 +149,211 @@ label {
     border: none;
     background-color: skyblue;
     color: black;
+}
+.form1 {
+    visibility: hidden;
+}
+
+@media only screen and (max-width:991px){
+    .mainform{
+     max-width: 90%;
+    }
+   .form-div3{
+    margin-left: 155px;
+   }
+     .box-container4 {
+         display: flex;
+         gap: 50px;
+         justify-content: center;
+         background-color: rgb(2, 2, 51);
+         margin-top: 300px;
+         height: 400px;
+         padding-top: 100px;
+     }
+     .button{
+        margin-left: 155px;
+     }
+     .box7 {
+         margin-top: 20px;
+     }
+    .f2{
+    margin-left: -10px;
+     margin-top: -10px;
+    }
+   .f3{
+     text-align: center;
+     margin-top: 20px;
+     color: ghostwhite;
+   }
+     .box8 {
+         text-align: center;
+     }
+     .footer-logo{
+        margin-left: 0px;
+     }
+     
+ }
+@media only screen and (max-width:768px){
+    .mainform{
+     max-width: 90%;
+    }
+   .form-div3{
+    margin-left: 55px;
+   }
+     .box-container4 {
+         display: block;
+         gap: 150px;
+         justify-content: center;
+         background-color: rgb(2, 2, 51);
+         margin-top: 100px;
+         height: 600px;
+         padding-top: 100px;
+     }
+     .button{
+        margin-left: 50px;
+     }
+     .box7 {
+         margin-top: 20px;
+     }
+    .f2{
+    margin-left: -10px;
+     margin-top: -10px;
+    }
+   .f3{
+     text-align: center;
+     margin-top: 20px;
+     color: ghostwhite;
+   }
+     .box8 {
+         text-align: center;
+     }
+     .footer-logo{
+        margin-left: 310px;
+     }
+     
+ }
+
+@media only screen and (max-width:479px){
+    .mainform{
+     max-width: 90%;
+    }
+    .form1 {
+     visibility: visible;
+     margin-top: 20px;
+     margin-left: 52px;
+    }
+     .form-div {
+         margin-top: -30px;
+         margin-left: 10px;
+     }
+     .form-div2 {
+        margin-top: 10px;
+         margin-left: 10px;
+         
+     }
+   
+    .lg {
+     display: none;
+    }
+     .button{
+         width: 200px;
+         margin-left: 48px;
+         height: 30px;
+         margin-top: 20px;
+     }
+     .box-container4 {
+         display: block;
+         gap: 150px;
+         justify-content: center;
+         background-color: rgb(2, 2, 51);
+         margin-top: 100px;
+         height: 600px;
+         padding-top: 100px;
+     }
+     .box7 {
+         margin-top: 20px;
+     }
+    .f2{
+    margin-left: -10px;
+     margin-top: -10px;
+    }
+   .f3{
+     text-align: center;
+     margin-top: 20px;
+     color: ghostwhite;
+   }
+     .box8 {
+         text-align: center;
+     }
+     .footer-logo{
+        margin-left: 150px;
+     }
+     
+ }
+@media only screen and (max-width:375px){
+  
+    .form1 {
+     visibility: visible;
+     margin-top: 20px;
+     margin-left: 30px;
+    }
+    
+   
+    .lg {
+     display: none;
+    }
+     .button{
+         width: 200px;
+         margin-left: 25px;
+         height: 30px;
+         margin-top: 20px;
+     }
+    
+   .f3{
+     text-align: center;
+     margin-top: 20px;
+     color: ghostwhite;
+   }
+    
+     .footer-logo{
+        margin-left: 125px;
+     }
+     
+ }
+
+@media only screen and (max-width:320px){
+
+   .form1 {
+    visibility: visible;
+    margin-top: 20px;
+    margin-left: 7px;
+   }
+    .form-div {
+        margin-top: -30px;
+        margin-left: 10px;
+    }
+    .form-div2 {
+       margin-top: 10px;
+        margin-left: 10px;
+        
+    }
+
+    .button{
+        width: 200px;
+        margin-left: 5px;
+        height: 30px;
+        margin-top: 15px;
+    }
+   
+  
+  .f3{
+    text-align: center;
+    margin-top: 20px;
+    color: ghostwhite;
+  }
+   
+    .footer-logo{
+       margin-left: 105px;
+    }
+    
 }

@@ -210,6 +210,7 @@ label {
          padding-top: 100px;
      }
      .button{
+        
         margin-left: 50px;
      }
      .box7 {
@@ -240,9 +241,8 @@ label {
     .form1 {
      visibility: visible;
      margin-top: 20px;
-     max-width: 82%;
-     margin-left: auto;
-     margin-left: auto;
+     margin-left: 53px;
+    
      
     }
      .form-div {

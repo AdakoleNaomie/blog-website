@@ -20,6 +20,9 @@ h1 {
    
     
 }
+a {
+    text-decoration: none;
+}
 
 .text-one{
     padding-left: 47px;
@@ -34,10 +37,13 @@ h1 {
     padding-left: 50px;
 }
 .body-c{
-    padding-top: 150px;
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
     text-align: center;
 }
 .body-d {
+    text-align: center;
     margin-top: 50px;
 }
 .mainform {
@@ -52,10 +58,13 @@ h1 {
    
 }
 .subone{
+    padding-top: 150px;
  color:rgb(94, 42, 5) ;
+ text-align: center;
 }
 .subtwo{
     color:rgb(94, 42, 5) ;
+    text-decoration: none;
    }
 .form-div {
     display: grid;
@@ -95,6 +104,8 @@ h1 {
     padding: 7px;
 }
 .button {
+    display: flex;
+    justify-content: center;
     width: 500px;
     margin-left: 175px;
     border: none;
@@ -155,6 +166,16 @@ label {
 .form1 {
     visibility: hidden;
 }
+.svgimg2 {
+    display: flex;
+    gap: 30px;
+    margin-left: 30px;
+    margin-top: 5px;
+    
+}
+.svg-f:hover{
+    background-color: peachpuff;
+}
 
 @media only screen and (max-width:991px){
     .mainform{
@@ -171,7 +192,10 @@ label {
          padding-top: 100px;
      }
      .button{
+        display: flex;
+        justify-content: center;
         margin-left: 155px;
+        width: 485px;
      }
      .box7 {
          margin-top: 20px;
@@ -245,6 +269,11 @@ label {
     margin-top: 20px;
     
      
+    }
+    .svgimg2 {
+      margin-left: -20px;
+      margin-right: 20px;
+        gap: 25px;
     }
      .form-div {
          margin-top: -30px;
@@ -326,7 +355,10 @@ label {
  }
 
 @media only screen and (max-width:320px){
-
+   .svgimg2{
+    margin-left: -10px;
+    gap: 5px;
+   }
    .form1 {
     visibility: visible;
     margin-top: 20px;

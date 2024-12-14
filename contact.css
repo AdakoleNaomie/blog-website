@@ -238,6 +238,9 @@ label {
     .mainform{
      max-width: 90%;
     }
+    .form-div3{
+        margin-left: -100px;
+    }
     .form1 {
      visibility: visible;
      margin-top: 20px;

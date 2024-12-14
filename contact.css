@@ -239,7 +239,7 @@ label {
      max-width: 90%;
     }
     .form-div3{
-        margin-left: -100px;
+        display: none;
     }
     .form1 {
      visibility: visible;
